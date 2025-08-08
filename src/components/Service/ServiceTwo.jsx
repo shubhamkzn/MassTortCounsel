@@ -1,7 +1,7 @@
 import React from 'react';
-import bag1 from '../../assets/Bag1Blue.png';
-import bag2 from '../../assets/Bag2Blue.png';
-import bag3 from '../../assets/Bag3Blue.png';
+import bag1 from '../../assets/Bag1Purple.png';
+import bag2 from '../../assets/Bag2Purple.png';
+import bag3 from '../../assets/Bag3Purple.png';
 
 const features = [
   {

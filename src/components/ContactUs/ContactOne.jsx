@@ -12,7 +12,7 @@ const ContactOne = () => {
   }, []);
 
   return (
-    <div className="bg-gradient-to-r from-[#00005F] to-[#0100AF] text-white px-4" style={{ fontFamily: 'Quicksand, sans-serif' }}>
+    <div className="bg-[#692D94] text-white px-4" style={{ fontFamily: 'Quicksand, sans-serif' }}>
       {isMobile ? (
         // ---------------------- MOBILE VERSION ----------------------
         <div className="pt-8">
@@ -35,7 +35,7 @@ const ContactOne = () => {
         </div>
       ) : (
         // ---------------------- DESKTOP VERSION ----------------------
-<div className="w-full pt-12 bg-gradient-to-r from-[#00005F] to-[#0100AF]">
+<div className="w-full pt-12 bg-[#692D94]">
 
 
 

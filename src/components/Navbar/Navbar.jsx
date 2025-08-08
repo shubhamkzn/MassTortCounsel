@@ -115,7 +115,7 @@ function DesktopNavbar() {
 
 <div className="flex items-center">
   <Link to="/">
-    <img src={logo} alt="Logo" className="h-20 w-32 object-contain" />
+    <img src={logo} alt="Logo" className="h-20 w-32 xl:w-40 object-contain" />
   </Link>
 </div>
       

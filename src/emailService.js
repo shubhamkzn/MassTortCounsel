@@ -14,12 +14,12 @@ import emailjs from '@emailjs/browser';
  
  
 const SERVICE_ID = 'service_azb26ks';
-const ADMIN_TEMPLATE_ID = 'template_i4yx3al';
-const USER_TEMPLATE_ID = 'template_v3x552b';
+const ADMIN_TEMPLATE_ID = 'template_nw7o2gb';
+const USER_TEMPLATE_ID = 'template_w07ka6o';
  
 // SubService template IDs
-const SUBSERVICE_ADMIN_TEMPLATE_ID = 'template_0yxv4ra';
-const SUBSERVICE_USER_TEMPLATE_ID = 'template_145waea';  
+const SUBSERVICE_ADMIN_TEMPLATE_ID = 'template_ls6gnlw';
+const SUBSERVICE_USER_TEMPLATE_ID = 'template_41dy5sn';  
  
 const PUBLIC_KEY = 'DyDZ85E9uwzwSyUoD';
  
