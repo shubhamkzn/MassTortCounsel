@@ -154,34 +154,7 @@ const HomeMain = () => {
     loadTurnstileScript();
   };
  
-  if (loading) {
-    return (
-      <div className="fixed top-0 left-0 w-screen h-screen z-50 flex items-center justify-center bg-white">
-        <div className="text-center">
-          <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-[#4F2270] mx-auto mb-4"></div>
-          <p className="text-gray-600">Loading security verification...</p>
-        </div>
-      </div>
-    );
-  }
- 
-  if (error) {
-    return (
-      <div className="fixed top-0 left-0 w-screen h-screen z-50 flex items-center justify-center bg-white">
-        <div className="text-center max-w-md mx-auto p-6">
-          <div className="text-red-500 text-5xl mb-4">⚠️</div>
-          <h2 className="text-xl font-semibold mb-2 text-gray-800">Verification Error</h2>
-          <p className="text-gray-600 mb-4">{error}</p>
-          <button
-            onClick={handleRetry}
-            className="bg-blue-600 text-white px-4 py-2 rounded hover:bg-blue-700 transition-colors"
-          >
-            Try Again
-          </button>
-        </div>
-      </div>
-    );
-  }
+
  
   return (
     <div className="relative">
