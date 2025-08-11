@@ -133,8 +133,8 @@ function DesktopNavbar() {
                   <button
                     ref={buttonRef}
                     className={`font-semibold hover:underline transition-all duration-200 flex items-center gap-1 cursor-pointer ${
-                      activePage === link.name ? 'text-[#692D94]' : 'text-gray-600'
-                    } hover:text-[#692D94]`}
+                      activePage === link.name ? 'text-[#4F2270]' : 'text-gray-600'
+                    } hover:text-[#4F2270]`}
                     aria-expanded={dropdownOpen}
                     aria-haspopup="true"
                   >
@@ -162,14 +162,14 @@ function DesktopNavbar() {
                         <a
                           key={lawsuit.name}
                           href={lawsuit.href}
-                          className="group block px-4 py-3 text-sm text-gray-700 hover:text-[#692D94] hover:bg-gray-50 transition-all duration-200 relative flex items-center justify-between"
+                          className="group block px-4 py-3 text-sm text-gray-700 hover:text-[#4F2270] hover:bg-gray-50 transition-all duration-200 relative flex items-center justify-between"
                           style={{
                             animationDelay: `${index * 20}ms`,
                           }}
                         >
                           <span className="font-medium">{lawsuit.name}</span>
                           <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-200">
-                            <div className="w-5 h-5 bg-[#692D94]  rounded-full flex items-center justify-center">
+                            <div className="w-5 h-5 bg-[#4F2270]  rounded-full flex items-center justify-center">
                               <Check className="w-3 h-3 text-white" />
                             </div>
                           </div>
@@ -182,8 +182,8 @@ function DesktopNavbar() {
                 <a
                   href={link.href}
                   className={`font-semibold hover:underline transition-all duration-200 ${
-                    activePage === link.name ? 'text-[#692D94]' : 'text-gray-600'
-                  } hover:text-[#692D94]`}
+                    activePage === link.name ? 'text-[#4F2270]' : 'text-gray-600'
+                  } hover:text-[#4F2270]`}
                   onClick={() => setActivePage(link.name)}
                 >
                   {link.name}
@@ -196,7 +196,7 @@ function DesktopNavbar() {
       
       {/* Call Now Tile */}
       <div className="flex items-center">
-        <div className="bg-[#692D94]  rounded-lg px-6 py-3 text-white text-center shadow font-quicksand hover:bg-[#EDC14A] hover:text-[#692D94] transition-colors duration-200">
+        <div className="bg-[#4F2270]  rounded-lg px-6 py-3 text-white text-center shadow font-quicksand hover:bg-[#EDC14A] hover:text-[#4F2270] transition-colors duration-200">
           <div className="text-xs">CALL NOW</div>
           <div className="text-l">888 201-1350</div>
         </div>
@@ -278,9 +278,9 @@ function MobileNavbar() {
           aria-label="Open menu"
         >
           <div className="flex flex-col items-start">
-          <span className="block w-6 h-0.5 bg-[#692D94] mb-1 rounded transition-all duration-300"></span>
-          <span className="block w-6 h-0.5 bg-[#692D94] mb-1 rounded transition-all duration-300"></span>
-          <span className="block w-3 h-0.5 bg-[#692D94] rounded transition-all duration-300"></span>
+          <span className="block w-6 h-0.5 bg-[#4F2270] mb-1 rounded transition-all duration-300"></span>
+          <span className="block w-6 h-0.5 bg-[#4F2270] mb-1 rounded transition-all duration-300"></span>
+          <span className="block w-3 h-0.5 bg-[#4F2270] rounded transition-all duration-300"></span>
           </div>
         </button>
       </div>
@@ -299,7 +299,7 @@ function MobileNavbar() {
       >
         <div className="flex items-center justify-between px-4 py-4 bg-white shadow-md">
           <button
-            className="text-[#692D94] text-3xl font-bold focus:outline-none transition-all duration-200 hover:scale-110"
+            className="text-[#4F2270] text-3xl font-bold focus:outline-none transition-all duration-200 hover:scale-110"
             onClick={() => setOpen(false)}
             aria-label="Close menu"
           >
@@ -313,7 +313,7 @@ function MobileNavbar() {
           <span className="w-8"></span> 
         </div>
 
-        <div className="flex-1 bg-[#692D941A] overflow-y-auto">
+        <div className="flex-1 bg-[#4F22701A] overflow-y-auto">
           <div className="flex flex-col min-h-full">
             <div className="flex-1">
               <ul className="flex flex-col w-full">
@@ -324,9 +324,9 @@ function MobileNavbar() {
                         <button
                           className={`block w-full px-8 py-4 text-lg font-semibold text-left transition-colors duration-200 ${
                             active === link.name
-                              ? 'text-[#692D94] bg-gray-300'
+                              ? 'text-[#4F2270] bg-gray-300'
                               : 'text-gray-600'
-                          } hover:text-[#692D94] flex items-center justify-between`}
+                          } hover:text-[#4F2270] flex items-center justify-between`}
                           onClick={() => setServicesOpen(!servicesOpen)}
                         >
                           {link.name}
@@ -342,7 +342,7 @@ function MobileNavbar() {
                               <a
                                 key={lawsuit.name}
                                 href={lawsuit.href}
-                                className="block px-12 py-3 text-sm text-gray-700 hover:text-[#692D94] hover:bg-gray-200 transition-colors duration-200"
+                                className="block px-12 py-3 text-sm text-gray-700 hover:text-[#4F2270] hover:bg-gray-200 transition-colors duration-200"
                                 onClick={() => setOpen(false)}
                               >
                                 {lawsuit.name}
@@ -356,9 +356,9 @@ function MobileNavbar() {
                         href={link.href}
                         className={`block w-full px-8 py-4 text-lg font-semibold text-left transition-colors duration-200 ${
                           active === link.name
-                            ? 'text-[#692D94]'
+                            ? 'text-[#4F2270]'
                             : 'text-gray-600'
-                        } hover:text-[#692D94]`}
+                        } hover:text-[#4F2270]`}
                         onClick={() => {
                           setActive(link.name);
                           setOpen(false);
@@ -372,7 +372,7 @@ function MobileNavbar() {
               </ul>
             </div>
 
-            <div className="mt-8 px-8 pb-8 bg-[#692D94] ">
+            <div className="mt-8 px-8 pb-8 bg-[#4F2270] ">
               <h3 className="text-white font-semibold text-lg mb-4 mt-8">Follow Us</h3>
               <div className="flex justify-left gap-8 mt-5">
                 {socialLinks.map(({ icon: Icon, href, label }) => (
@@ -380,7 +380,7 @@ function MobileNavbar() {
                     key={label}
                     href={href}
                     aria-label={label}
-                    className="w-12 h-12 flex items-center justify-center rounded-lg border-2 border-white bg-[#692D94]  hover:bg-opacity-80 transition-all duration-300 hover:scale-110 focus:outline-none focus:ring-4 focus:ring-white focus:ring-opacity-30"
+                    className="w-12 h-12 flex items-center justify-center rounded-lg border-2 border-white bg-[#4F2270]  hover:bg-opacity-80 transition-all duration-300 hover:scale-110 focus:outline-none focus:ring-4 focus:ring-white focus:ring-opacity-30"
                   >
                     <Icon className="w-5 h-5 text-white" />
                   </a>
@@ -435,9 +435,9 @@ export default Navbar;
 //         onClick={() => setOpen((v) => !v)}
 //         aria-label="Open menu"
 //       >
-//         <span className="block w-6 h-0.5 bg-[#692D94] mb-1 rounded"></span>
-//         <span className="block w-6 h-0.5 bg-[#692D94] mb-1 rounded"></span>
-//         <span className="block w-6 h-0.5 bg-[#692D94] rounded"></span>
+//         <span className="block w-6 h-0.5 bg-[#4F2270] mb-1 rounded"></span>
+//         <span className="block w-6 h-0.5 bg-[#4F2270] mb-1 rounded"></span>
+//         <span className="block w-6 h-0.5 bg-[#4F2270] rounded"></span>
 //       </button>
      
       
@@ -449,18 +449,18 @@ export default Navbar;
       
 //         <div className="flex items-center justify-between px-4 py-4 bg-white">
 //           <button
-//             className="text-[#692D94] text-3xl font-bold focus:outline-none"
+//             className="text-[#4F2270] text-3xl font-bold focus:outline-none"
 //             onClick={() => setOpen(false)}
 //             aria-label="Close menu"
 //           >
 //             &times;
 //           </button>
-//           <span className="text-[#692D94] text-lg font-bold mx-auto">BE WITH LAW</span>
+//           <span className="text-[#4F2270] text-lg font-bold mx-auto">BE WITH LAW</span>
 //           <span className="w-8"></span>
 //         </div>
         
        
-//         <div className="flex-1 bg-[#692D941A] overflow-y-auto">
+//         <div className="flex-1 bg-[#4F22701A] overflow-y-auto">
 //           <div className="flex flex-col min-h-full">
          
 //             <div className="flex-1">
@@ -470,7 +470,7 @@ export default Navbar;
 //                     {link.hasDropdown ? (
 //                       <div className="w-full">
 //                         <button
-//                           className={`block w-full px-8 py-4 text-lg font-semibold text-left transition-colors duration-200 ${active === link.name ? 'text-[#692D94] bg-gray-300' : 'text-gray-600'} hover:text-[#692D94]  flex items-center justify-between`}
+//                           className={`block w-full px-8 py-4 text-lg font-semibold text-left transition-colors duration-200 ${active === link.name ? 'text-[#4F2270] bg-gray-300' : 'text-gray-600'} hover:text-[#4F2270]  flex items-center justify-between`}
 //                           onClick={() => setServicesOpen(!servicesOpen)}
 //                         >
 //                           {link.name}
@@ -482,7 +482,7 @@ export default Navbar;
 //                               <a
 //                                 key={lawsuit.name}
 //                                 href={lawsuit.href}
-//                                 className="block px-12 py-3 text-sm text-gray-700 hover:text-[#692D94] hover:bg-gray-200 transition-colors duration-200"
+//                                 className="block px-12 py-3 text-sm text-gray-700 hover:text-[#4F2270] hover:bg-gray-200 transition-colors duration-200"
 //                                 onClick={() => setOpen(false)}
 //                               >
 //                                 {lawsuit.name}
@@ -494,7 +494,7 @@ export default Navbar;
 //                     ) : (
 //                       <a
 //                         href={link.href}
-//                         className={`block w-full px-8 py-4 text-lg font-semibold text-left transition-colors duration-200 ${active === link.name ? 'text-[#692D94] ' : 'text-gray-600'} hover:text-[#692D94] `}
+//                         className={`block w-full px-8 py-4 text-lg font-semibold text-left transition-colors duration-200 ${active === link.name ? 'text-[#4F2270] ' : 'text-gray-600'} hover:text-[#4F2270] `}
 //                         onClick={() => { setActive(link.name); setOpen(false); }}
 //                       >
 //                         {link.name}
@@ -505,7 +505,7 @@ export default Navbar;
 //               </ul>
 //             </div>
           
-//             <div className="mt-8 px-8 pb-8 bg-[#692D94] ">
+//             <div className="mt-8 px-8 pb-8 bg-[#4F2270] ">
 //               <h3 className="text-gray-700 font-semibold text-lg mb-4 text-white mt-8">Follow Us</h3>
 //                  <div className="flex justify-left gap-8 mt-5 ">
 //               {socialLinks.map(({ icon: Icon, href, label }) => (
@@ -513,7 +513,7 @@ export default Navbar;
 //   key={label}
 //   href={href}
 //   aria-label={label}
-//   className="w-12 h-12 flex items-center justify-center rounded-lg border-2 border-white bg-[#692D94]  hover:bg-opacity-80 transition-all duration-300 hover:scale-110 focus:outline-none focus:ring-4 focus:ring-white focus:ring-opacity-30"
+//   className="w-12 h-12 flex items-center justify-center rounded-lg border-2 border-white bg-[#4F2270]  hover:bg-opacity-80 transition-all duration-300 hover:scale-110 focus:outline-none focus:ring-4 focus:ring-white focus:ring-opacity-30"
 // >
 //   <Icon className="w-5 h-5 text-white" />
 // </a>

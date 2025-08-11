@@ -10,7 +10,7 @@ const AboutSix = () => {
       {/* Desktop Tile Section */}
 <section className="hidden lg:block py-12 lg:py-16">
   <div className="max-w-7xl mx-auto px-6 lg:px-8">
-  <div className="bg-[#692D94] relative rounded-2xl lg:rounded-3xl 
+  <div className="bg-[#4F2270] relative rounded-2xl lg:rounded-3xl 
   px-8 pt-8 pb-0 lg:px-10 lg:pt-10 lg:pb-0 xl:px-14 xl:pt-14 xl:pb-0 
   shadow-2xl overflow-hidden min-h-[340px] w-full md:max-w-full lg:max-w-[1440px] mx-auto 
   rounded-md p-4 sm:p-6 md:p-0 lg:p-0 
@@ -71,7 +71,7 @@ const AboutSix = () => {
       {/* Tablet Tile Section */}
       <section className="hidden md:block lg:hidden py-12">
         <div className="max-w-4xl mx-auto px-6">
-          <div className="bg-[#692D94] rounded-2xl p-8 shadow-2xl">
+          <div className="bg-[#4F2270] rounded-2xl p-8 shadow-2xl">
             {/* Tablet Image on Top */}
             <div className="mb-8 text-center">
               <img
@@ -103,7 +103,7 @@ const AboutSix = () => {
     {/* Mobile Section */}
 <section
   className="relative sm:hidden flex flex-col items-center justify-end
-             bg-[#692D94] w-full pt-[50px] pb-[35px]"
+             bg-[#4F2270] w-full pt-[50px] pb-[35px]"
 >
   <div className="z-[10] w-full flex flex-col items-center">
     {/* Quote + Text Block */}

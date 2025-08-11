@@ -36,7 +36,7 @@ const TransvaginalOne = () => (
       <div className="w-[300px] lg:w-[328px] min-w-[240px] lg:min-w-[260px] h-[100px] lg:h-[120px] flex items-center">
         <h2
           id="why-trust-us-title"
-          className="text-[26px] md:text-[28px] lg:text-[32px] xl:text-[36px] 2xl:text-[40px] leading-[36px] md:leading-[40px] lg:leading-[48px] xl:leading-[52px] font-semibold text-[#692D94] capitalize"
+          className="text-[26px] md:text-[28px] lg:text-[32px] xl:text-[36px] 2xl:text-[40px] leading-[36px] md:leading-[40px] lg:leading-[48px] xl:leading-[52px] font-semibold text-[#4F2270] capitalize"
         >
           Why You <span className="text-[#EDC14A] font-bold">Can</span><br />
           <span className="text-[#EDC14A] font-bold">Always</span> Trust Us
@@ -55,7 +55,7 @@ const TransvaginalOne = () => (
               alt="icon"
               className="w-[32px] h-[32px] md:w-[36px] md:h-[36px] lg:w-[44px] lg:h-[44px] xl:w-[48px] xl:h-[48px] 2xl:w-[50px] 2xl:h-[50px]"
             />
-            <h3 className="text-center text-[#692D94] text-[15px] md:text-[16px] lg:text-[18px] xl:text-[20px] 2xl:text-[22px] font-semibold">
+            <h3 className="text-center text-[#4F2270] text-[15px] md:text-[16px] lg:text-[18px] xl:text-[20px] 2xl:text-[22px] font-semibold">
               {card.title}
             </h3>
             <p className="text-center text-[#757575] text-[12px] md:text-[13px] lg:text-[14px] xl:text-[15px] 2xl:text-[16px] font-medium opacity-80">
@@ -69,7 +69,7 @@ const TransvaginalOne = () => (
     {/* Mobile Layout */}
     <div className="flex flex-col items-center gap-6 px-4 md:hidden">
       <h2
-        className="text-[34px] leading-[40px] font-semibold text-[#692D94] text-center"
+        className="text-[34px] leading-[40px] font-semibold text-[#4F2270] text-center"
       >
         Why You <span className="text-[#EDC14A] font-bold">Can</span> <br />
         <span className="text-[#EDC14A] font-bold">Always</span> Trust Us
@@ -86,7 +86,7 @@ const TransvaginalOne = () => (
               alt="icon"
               className="w-[36px] h-[36px]"
             />
-            <h3 className="text-center text-[#692D94] text-[18px] font-semibold">
+            <h3 className="text-center text-[#4F2270] text-[18px] font-semibold">
               {card.title}
             </h3>
             <p className="text-center text-[#757575] text-[13px] font-medium opacity-80">
@@ -101,7 +101,7 @@ const TransvaginalOne = () => (
     <div className="hidden md:flex lg:hidden flex-col max-w-[768px] mx-auto gap-6 px-4 mt-8">
       {/* Heading on top left */}
       <h2
-        className="text-left md:text-center text-[28px] md:text-[40px] leading-[36px] md:leading-[48px] font-semibold text-[#692D94] relative"
+        className="text-left md:text-center text-[28px] md:text-[40px] leading-[36px] md:leading-[48px] font-semibold text-[#4F2270] relative"
         style={{ transform: 'translateY(-50px)' }}
       >
         Why You <span className="text-[#EDC14A] font-bold">Can</span><br />
@@ -116,7 +116,7 @@ const TransvaginalOne = () => (
             className="flex flex-col items-center justify-center bg-[#F3F4F9] rounded-[10px] py-6 px-4 gap-3 shadow-md h-[220px] min-w-[150px] relative top-[-25px]"
           >
             <img src={card.icon} alt="icon" className="w-[36px] h-[36px]" />
-            <h3 className="text-center text-[#692D94] text-[16px] font-semibold">
+            <h3 className="text-center text-[#4F2270] text-[16px] font-semibold">
               {card.title}
             </h3>
             <p className="text-center text-[#757575] text-[13px] font-medium opacity-80">

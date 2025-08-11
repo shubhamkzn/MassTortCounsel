@@ -26,7 +26,7 @@ const features = [
 const HomeFour = () => {
   return (
     <section
-      className="bg-[#692D94] text-white py-10 px-4 sm:px-6 md:px-12"
+      className="bg-[#4F2270] text-white py-10 px-4 sm:px-6 md:px-12"
       style={{ fontFamily: 'Quicksand, sans-serif' }}
     >
       <div className="max-w-[1440px] mx-auto flex flex-col lg:flex-row items-center justify-between gap-10">

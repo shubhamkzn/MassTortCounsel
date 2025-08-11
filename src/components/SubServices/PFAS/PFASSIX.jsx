@@ -15,7 +15,7 @@ export default function Compensation() {
   return (
     <section
       className="relative text-white font-[Quicksand] w-full"
-      style={{ background: "#692D94", zIndex: 0, opacity: 1 }}
+      style={{ background: "#4F2270", zIndex: 0, opacity: 1 }}
     >
       <div className="relative max-w-[1200px] 2xl:max-w-[1400px] w-full mx-auto px-4 sm:px-5 md:px-6 lg:px-8 xl:px-10 2xl:px-12">
  

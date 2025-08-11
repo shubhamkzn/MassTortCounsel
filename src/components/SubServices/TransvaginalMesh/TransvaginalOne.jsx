@@ -6,7 +6,7 @@ const TransvaginalOne = () => {
   return (
     <>
       {/* Desktop/Laptop/Tablet Hero Section */}
-      <section className="hidden sm:flex relative w-full min-h-[55vh] md:min-h-[75vh] lg:min-h-[80vh] xl:min-h-[85vh]  items-center justify-center overflow-hidden">
+      <section className="hidden sm:flex relative w-full min-h-[55vh] md:min-h-[85vh] lg:min-h-[80vh] xl:min-h-[85vh]  items-center justify-center overflow-hidden">
         {/* Background Image */}
         <img
           src={herobg}

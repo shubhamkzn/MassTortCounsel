@@ -66,7 +66,7 @@ export default function EligibilityCriteria() {
    
     {/* Left Half - Heading (43.61% width) */}
     <div className="flex flex-col justify-center w-[43.61%]">
-      <h2 className="text-[#692D94] text-[28px] xl:text-[36px] font-semibold capitalize leading-tight mb-2">
+      <h2 className="text-[#4F2270] text-[28px] xl:text-[36px] font-semibold capitalize leading-tight mb-2">
         Who May Be <span className="text-[#EDC14A]"> Eligible</span>
       </h2>
       <p className="text-[#757575] text-[15px] xl:text-[18px] leading-[22px] xl:leading-[25px] font-medium">
@@ -88,10 +88,10 @@ export default function EligibilityCriteria() {
           key={card.number}
           className={`flex flex-col justify-center items-start gap-2 p-6 xl:p-8 h-[140px] xl:h-[160px] rounded-[10px] ${card.bg} shadow-sm border border-white overflow-hidden`}
         >
-          <span className="text-[#692D94] font-[Quicksand] font-normal leading-none text-[28px] xl:text-[32px]">
+          <span className="text-[#4F2270] font-[Quicksand] font-normal leading-none text-[28px] xl:text-[32px]">
             {card.number}
           </span>
-          <p className="text-[#692D94] text-[14px] xl:text-[15px] font-medium leading-[20px] xl:leading-[22px] tracking-[-0.32px] capitalize text-left">
+          <p className="text-[#4F2270] text-[14px] xl:text-[15px] font-medium leading-[20px] xl:leading-[22px] tracking-[-0.32px] capitalize text-left">
             {card.text}
           </p>
         </article>
@@ -103,7 +103,7 @@ export default function EligibilityCriteria() {
       {/*  Tablet Layout (md only) */}
       <div className="hidden md:flex lg:hidden max-w-[1200px] mx-auto flex-col items-center gap-6 px-4 py-2 md:gap-6 xl:gap-8">
         <div className="w-full text-center -mt-8">
-          <h2 className="text-[#692D94] text-[28px] lg:text-[32px] font-semibold capitalize leading-normal">
+          <h2 className="text-[#4F2270] text-[28px] lg:text-[32px] font-semibold capitalize leading-normal">
           Who May Be <span className="text-[#EDC14A]"> Eligible</span>
           </h2>
  
@@ -127,10 +127,10 @@ export default function EligibilityCriteria() {
               key={card.number}
               className={`flex flex-col justify-center items-start gap-3 p-6 h-[140px] rounded-[10px] ${card.bg} shadow-sm border border-white overflow-hidden`}
             >
-              <span className="text-[#692D94] font-[Quicksand] font-normal leading-none text-[26px]">
+              <span className="text-[#4F2270] font-[Quicksand] font-normal leading-none text-[26px]">
                 {card.number}
               </span>
-              <p className="text-[#692D94] text-[14px] font-medium leading-[20px] tracking-[-0.32px] capitalize text-left">
+              <p className="text-[#4F2270] text-[14px] font-medium leading-[20px] tracking-[-0.32px] capitalize text-left">
                 {card.text}
               </p>
             </article>
@@ -140,7 +140,7 @@ export default function EligibilityCriteria() {
  
       {/* Mobile Layout (below md) */}
       <div className="md:hidden flex flex-col items-center justify-center gap-6 px-4">
-  <h2 className="text-[#692D94] text-[24px] font-semibold capitalize leading-snug text-left w-full">
+  <h2 className="text-[#4F2270] text-[24px] font-semibold capitalize leading-snug text-left w-full">
     Who May Be <span className="text-[#EDC14A]"> Eligible</span>
   </h2>
         <p className="text-[#757575] text-[14px] font-medium text-left leading-[22px]">
@@ -160,10 +160,10 @@ export default function EligibilityCriteria() {
               key={card.number}
               className={`flex flex-col justify-center items-start text-left gap-3 p-5 h-[120px] rounded-[10px] ${card.bg} shadow-sm border border-white overflow-hidden`}
             >
-              <span className="text-[#692D94] text-[30px] font-normal font-[Quicksand] leading-none">
+              <span className="text-[#4F2270] text-[30px] font-normal font-[Quicksand] leading-none">
                 {card.number}
               </span>
-              <p className="text-[#692D94] text-[15px] font-medium font-[Quicksand] leading-[20px] tracking-[-0.32px] capitalize">
+              <p className="text-[#4F2270] text-[15px] font-medium font-[Quicksand] leading-[20px] tracking-[-0.32px] capitalize">
                 {card.text}
               </p>
             </article>

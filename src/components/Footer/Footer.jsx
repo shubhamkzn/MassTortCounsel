@@ -35,7 +35,7 @@ const Footer = () => {
 
   return (
     <div className="flex flex-col">
-      <footer className="bg-[#692D94] text-white relative overflow-hidden">
+      <footer className="bg-[#4F2270] text-white relative overflow-hidden">
         {/* Vector Background */}
  {/* <img
   src={footerVector}
@@ -56,7 +56,7 @@ const Footer = () => {
   Your <span className="text-yellow-400">Legal Options</span> Today
 </h2>
           <a href="/ContactUs">
-  <button className="bg-[#111111] hover:bg-yellow-600 text-[#692D94] px-4 py-4 rounded font-bold mt-8 w-full">
+  <button className="bg-[#111111] hover:bg-yellow-600 text-[#4F2270] px-4 py-4 rounded font-bold mt-8 w-full">
     Book an Appointment
   </button>
 </a>
@@ -69,7 +69,7 @@ const Footer = () => {
   key={label}
   href={href}
   aria-label={label}
-  className="w-12 h-12 flex items-center justify-center rounded-lg border-2 border-white bg-[#692D94] hover:bg-opacity-80 transition-all duration-300 hover:scale-110 focus:outline-none focus:ring-4 focus:ring-white focus:ring-opacity-30"
+  className="w-12 h-12 flex items-center justify-center rounded-lg border-2 border-white bg-[#4F2270] hover:bg-opacity-80 transition-all duration-300 hover:scale-110 focus:outline-none focus:ring-4 focus:ring-white focus:ring-opacity-30"
 >
   <Icon className="w-5 h-5 text-white" />
 </a>
@@ -161,7 +161,7 @@ const Footer = () => {
               {/* Right */}
               <div className="flex items-center justify-end gap-8">
             <a href="/ContactUs">
-  <button className="bg-[#EDC14A] hover:bg-yellow-600 text-[#692D94] px-4 py-4 rounded font-bold ">
+  <button className="bg-[#EDC14A] hover:bg-yellow-600 text-[#4F2270] px-4 py-4 rounded font-bold ">
     Book an Appointment
   </button>
 </a>
@@ -172,7 +172,7 @@ const Footer = () => {
   key={label}
   href={href}
   aria-label={label}
-  className="w-12 h-12 flex items-center justify-center rounded-lg border-2 border-white bg-[#692D94] hover:bg-opacity-80 transition-all duration-300 hover:scale-110 focus:outline-none focus:ring-4 focus:ring-white focus:ring-opacity-30"
+  className="w-12 h-12 flex items-center justify-center rounded-lg border-2 border-white bg-[#4F2270] hover:bg-opacity-80 transition-all duration-300 hover:scale-110 focus:outline-none focus:ring-4 focus:ring-white focus:ring-opacity-30"
 >
   <Icon className="w-5 h-5 text-white" />
 </a>

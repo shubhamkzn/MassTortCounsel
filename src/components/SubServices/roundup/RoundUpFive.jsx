@@ -51,7 +51,7 @@ export default function RoundUpFive() {
       {/* Laptop & Large Screen Layout (≥1024px) - 3x2 Grid */}
       <div className="hidden lg:block max-w-[1280px] mx-auto px-6 lg:px-8">
          <div className="flex flex-col justify-center px-0 xl:px-0 py-0 xl:py-0 h-[140px] xl:h-[160px]">
-            <h2 className="text-[#692D94] text-[28px] xl:text-[34px] font-semibold capitalize leading-tight mb-4">
+            <h2 className="text-[#4F2270] text-[28px] xl:text-[34px] font-semibold capitalize leading-tight mb-4">
               You may <span className="text-[#EDC14A]"> qualify to file </span>{" "}
               a lawsuit if you{" "}
             </h2>
@@ -77,10 +77,10 @@ export default function RoundUpFive() {
               key={card.number}
               className={`flex flex-col justify-center items-start gap-2 p-6 xl:p-8 h-[140px] xl:h-[160px] rounded-[10px] ${card.bg} shadow-sm border border-white overflow-hidden`}
             >
-              <span className="text-[#692D94] font-[Quicksand] font-normal leading-none text-[28px] xl:text-[32px]">
+              <span className="text-[#4F2270] font-[Quicksand] font-normal leading-none text-[28px] xl:text-[32px]">
                 {card.number}
               </span>
-              <p className="text-[#692D94] text-[14px] xl:text-[15px] font-medium leading-[20px] xl:leading-[22px] tracking-[-0.32px] capitalize text-left">
+              <p className="text-[#4F2270] text-[14px] xl:text-[15px] font-medium leading-[20px] xl:leading-[22px] tracking-[-0.32px] capitalize text-left">
                 {card.text}
               </p>
             </article>
@@ -92,10 +92,10 @@ export default function RoundUpFive() {
               key={card.number}
               className={`flex flex-col justify-center items-start gap-2 p-6 xl:p-8 h-[140px] xl:h-[160px] rounded-[10px] ${card.bg} shadow-sm border border-white overflow-hidden`}
             >
-              <span className="text-[#692D94] font-[Quicksand] font-normal leading-none text-[28px] xl:text-[32px]">
+              <span className="text-[#4F2270] font-[Quicksand] font-normal leading-none text-[28px] xl:text-[32px]">
                 {card.number}
               </span>
-              <p className="text-[#692D94] text-[14px] xl:text-[15px] font-medium leading-[20px] xl:leading-[22px] tracking-[-0.32px] capitalize text-left">
+              <p className="text-[#4F2270] text-[14px] xl:text-[15px] font-medium leading-[20px] xl:leading-[22px] tracking-[-0.32px] capitalize text-left">
                 {card.text}
               </p>
             </article>
@@ -106,7 +106,7 @@ export default function RoundUpFive() {
       {/*  Tablet Layout (md only) */}
       <div className="hidden md:flex lg:hidden max-w-[1200px] mx-auto flex-col items-center gap-6 px-4 py-2 md:gap-6 xl:gap-8">
         <div className="w-full text-center -mt-8">
-          <h2 className="text-[#692D94] text-[28px] lg:text-[32px] font-semibold capitalize leading-normal">
+          <h2 className="text-[#4F2270] text-[28px] lg:text-[32px] font-semibold capitalize leading-normal">
             You may <span className="text-[#EDC14A]"> qualify to file </span> a
             lawsuit if you{" "}
           </h2>
@@ -129,10 +129,10 @@ export default function RoundUpFive() {
               key={card.number}
               className={`flex flex-col justify-center items-start gap-3 p-6 h-[140px] rounded-[10px] ${card.bg} shadow-sm border border-white overflow-hidden`}
             >
-              <span className="text-[#692D94] font-[Quicksand] font-normal leading-none text-[26px]">
+              <span className="text-[#4F2270] font-[Quicksand] font-normal leading-none text-[26px]">
                 {card.number}
               </span>
-              <p className="text-[#692D94] text-[14px] font-medium leading-[20px] tracking-[-0.32px] capitalize text-left">
+              <p className="text-[#4F2270] text-[14px] font-medium leading-[20px] tracking-[-0.32px] capitalize text-left">
                 {card.text}
               </p>
             </article>
@@ -142,7 +142,7 @@ export default function RoundUpFive() {
 
       {/* Mobile Layout (below md) */}
       <div className="md:hidden flex flex-col items-center justify-center gap-6 px-4">
-        <h2 className="text-[#692D94] text-[24px] font-semibold capitalize leading-snug text-left w-full">
+        <h2 className="text-[#4F2270] text-[24px] font-semibold capitalize leading-snug text-left w-full">
            You may <span className="text-[#EDC14A]"> qualify to file </span>{" "}
               a lawsuit if you{" "}
         </h2>
@@ -163,10 +163,10 @@ export default function RoundUpFive() {
               key={card.number}
               className={`flex flex-col justify-center items-start text-left gap-3 p-5 h-[120px] rounded-[10px] ${card.bg} shadow-sm border border-white overflow-hidden`}
             >
-              <span className="text-[#692D94] text-[30px] font-normal font-[Quicksand] leading-none">
+              <span className="text-[#4F2270] text-[30px] font-normal font-[Quicksand] leading-none">
                 {card.number}
               </span>
-              <p className="text-[#692D94] text-[15px] font-medium font-[Quicksand] leading-[20px] tracking-[-0.32px] capitalize">
+              <p className="text-[#4F2270] text-[15px] font-medium font-[Quicksand] leading-[20px] tracking-[-0.32px] capitalize">
                 {card.text}
               </p>
             </article>

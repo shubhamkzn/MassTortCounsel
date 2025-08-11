@@ -6,7 +6,7 @@ export default function Compensation() {
     <section
       className="relative text-white font-[Quicksand] w-full"
       style={{
-        background: "#692D94",
+        background: "#4F2270",
         zIndex: 0,
         opacity: 1,
       }}

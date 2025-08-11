@@ -54,7 +54,7 @@ const AboutTwo = () => {
           text-[32px] md:text-[38px] lg:text-[44px] xl:text-[50px] 2xl:text-[54px]
           min-[2560px]:text-[58px] min-[3840px]:text-[62px]
           leading-snug">
-          <span className="text-[#692D94]">Our </span>
+          <span className="text-[#4F2270]">Our </span>
           <span className="text-[#EDC14A]">Mission</span>
         </h2>
         <p className="font-quicksand font-medium text-[#757575] text-left
@@ -86,7 +86,7 @@ const AboutTwo = () => {
         {/* Content - Positioned at top */}
         <div className="relative z-20 flex flex-col items-start w-full px-4 pt-[97px]">
           <h1 
-            className="text-[#692D94] mb-4 text-left capitalize
+            className="text-[#4F2270] mb-4 text-left capitalize
               text-[32px] leading-normal
               font-[Quicksand] font-bold"
           >

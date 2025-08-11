@@ -6,7 +6,7 @@ const ServiceOne = () => {
   return (
     <>
       {/* Desktop/Laptop/Tablet Hero Section */}
-      <section className="hidden sm:flex relative items-center justify-between overflow-hidden bg-gradient-to-r from-[#692D94] to-[#0100AF]
+      <section className="hidden sm:flex relative items-center justify-between overflow-hidden bg-gradient-to-r from-[#4F2270] to-[#0100AF]
         h-[27.85vh]
         md:h-[301px]
         lg:h-[351px]
@@ -71,7 +71,7 @@ const ServiceOne = () => {
       </section>
  
    {/* Mobile Hero Section */}
-<section className="bg-[#692D94] flex sm:hidden relative w-full items-start justify-center overflow-hidden">
+<section className="bg-[#4F2270] flex sm:hidden relative w-full items-start justify-center overflow-hidden">
   
   {/* Background Image */}
   <img

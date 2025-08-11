@@ -18,10 +18,10 @@
 //           {/* Right Content (on top) */}
 //           <div className="w-full flex flex-col items-start order-1">
 //             <div className="text-3xl text-[#FFC928] font-bold mb-2 flex justify-start"><img src={aposthopthe_icon} alt="" className="w-[48px] h-[38px] object-cover" /></div>
-//             <h2 className="text-[28px] xs:text-[24px] sm:text-[26px] font-quicksand font-semibold text-[#692D94] mb-2 leading-[30px] xs:leading-[32px] sm:leading-[36px] capitalize text-left">
+//             <h2 className="text-[28px] xs:text-[24px] sm:text-[26px] font-quicksand font-semibold text-[#4F2270] mb-2 leading-[30px] xs:leading-[32px] sm:leading-[36px] capitalize text-left">
 //               Experienced <span className="text-[#FFC928] font-quicksand font-semibold capitalize">Legal Teams</span>
 //               <br />
-//               <span className="text-[#692D94] font-quicksand font-semibold capitalize">Who Work For You</span>
+//               <span className="text-[#4F2270] font-quicksand font-semibold capitalize">Who Work For You</span>
 //             </h2>
 //             <p className="text-[#757575] font-quicksand text-[12px] xs:text-[16px] sm:text-[16px] font-medium leading-normal text-left">
 //               We connect you with law firms that understand complex injury claims and treat your case with urgency, compassion, and attention to detail.
@@ -58,11 +58,11 @@
 //               <img src={aposthopthe_icon} alt="" className="w-[48px] h-[38px] sm:w-[60px] sm:h-[48px] md:w-[76px] md:h-[60px] lg:w-[90px] lg:h-[70px] xl:w-[110px] xl:h-[85px] flex-shrink-0 object-cover" />
 //             </div>
 //             <h2
-//               className="text-[24px] sm:text-[32px] md:text-[40px] lg:text-[48px] xl:text-[56px] 2xl:text-[64px] font-quicksand font-semibold text-[#692D94] mb-4 leading-[32px] sm:leading-[44px] md:leading-[54px] lg:leading-[64px] xl:leading-[72px] 2xl:leading-[80px] capitalize"
+//               className="text-[24px] sm:text-[32px] md:text-[40px] lg:text-[48px] xl:text-[56px] 2xl:text-[64px] font-quicksand font-semibold text-[#4F2270] mb-4 leading-[32px] sm:leading-[44px] md:leading-[54px] lg:leading-[64px] xl:leading-[72px] 2xl:leading-[80px] capitalize"
 //             >
 //               Experienced <span className="text-[#FFC928] font-quicksand font-semibold capitalize">Legal Teams</span>
 //               <br />
-//               <span className="text-[#692D94] font-quicksand font-semibold capitalize">Who Work For You</span>
+//               <span className="text-[#4F2270] font-quicksand font-semibold capitalize">Who Work For You</span>
 //             </h2>
 //             <p className="text-[#757575] font-quicksand text-[14px] sm:text-[16px] md:text-[18px] lg:text-[20px] xl:text-[22px] 2xl:text-[24px] font-medium leading-normal max-w-[700px]">
 //               We connect you with law firms that understand complex injury claims and
@@ -110,7 +110,7 @@ export default function HomeFive() {
                 className="w-[48px] h-[38px] object-contain"
               />
             </div>
-            <h2 className="text-[28px] lg:text-[36px] xl:text-[40px] font-semibold text-[#692D94] leading-snug mb-4">
+            <h2 className="text-[28px] lg:text-[36px] xl:text-[40px] font-semibold text-[#4F2270] leading-snug mb-4">
               Experienced <span className="text-[#EDC14A]">Legal Teams</span>
               <br />
               <span>Who Work For You</span>
@@ -134,7 +134,7 @@ export default function HomeFive() {
                 className="w-[40px] h-[32px] object-contain"
               />
             </div>
-            <h2 className="text-[24px] min-[350px]:text-[26px] sm:text-[28px] font-semibold text-[#692D94] leading-snug mb-2">
+            <h2 className="text-[24px] min-[350px]:text-[26px] sm:text-[28px] font-semibold text-[#4F2270] leading-snug mb-2">
               Experienced{" "}
               <span className="text-[#EDC14A]">Legal Teams</span>
               <br />

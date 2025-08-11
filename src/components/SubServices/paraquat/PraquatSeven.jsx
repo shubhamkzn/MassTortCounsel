@@ -6,7 +6,7 @@ const PraquatSeven = () => {
       {/* Desktop Tile Section */}
 <section className="hidden lg:block py-12 lg:py-16">
   <div className="max-w-7xl mx-auto px-6 lg:px-8">
-    <div className="bg-[#692D94] relative rounded-2xl lg:rounded-3xl p-8 lg:p-10 xl:p-14 shadow-2xl overflow-hidden min-h-[340px]">
+    <div className="bg-[#4F2270] relative rounded-2xl lg:rounded-3xl p-8 lg:p-10 xl:p-14 shadow-2xl overflow-hidden min-h-[340px]">
       {/* Grid Content */}
       <div className="grid grid-cols-2 gap-8 lg:gap-12 items-center relative z-10">
         {/* Left Content */}
@@ -50,7 +50,7 @@ your free case Review!
       {/* Tablet Tile Section */}
       <section className="hidden md:block lg:hidden py-12">
         <div className="max-w-4xl mx-auto px-6">
-          <div className="bg-[#692D94] rounded-2xl p-8 shadow-2xl">
+          <div className="bg-[#4F2270] rounded-2xl p-8 shadow-2xl">
             {/* Tablet Image on Top */}
             <div className="mb-8 text-center">
               <img
@@ -86,7 +86,7 @@ your free case Review!
       </section>
 
       {/* Mobile Section (No Tile) */}
-      <section className="block md:hidden bg-[#692D94] py-12">
+      <section className="block md:hidden bg-[#4F2270] py-12">
         <div className="mx-auto px-6">
           {/* Mobile Image */}
           <div className="mb-6 text-center">

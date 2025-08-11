@@ -72,7 +72,7 @@ const TransvaginalFour = () => {
         <div className="w-full max-w-[1440px] mx-auto px-[80px] py-[60px]">
           {/* Main Heading - Dual Color */}
           <h2 className="mb-6">
-            <span className="text-[#692D94] text-[35px] font-semibold leading-normal capitalize overflow-hidden text-ellipsis">
+            <span className="text-[#4F2270] text-[35px] font-semibold leading-normal capitalize overflow-hidden text-ellipsis">
               Overview of the{" "}
             </span>
             <span className="text-[#EDC14A] text-[35px] font-semibold leading-normal capitalize overflow-hidden text-ellipsis">
@@ -86,7 +86,7 @@ const TransvaginalFour = () => {
           </p>
 
           {/* Secondary Heading */}
-          <h3 className="text-[#692D94] text-[35px] font-semibold leading-normal capitalize mb-8">
+          <h3 className="text-[#4F2270] text-[35px] font-semibold leading-normal capitalize mb-8">
            manufacturers failed to warn doctors and patients about severe risks 
 
           </h3>
@@ -102,10 +102,10 @@ const TransvaginalFour = () => {
                 key={card.number}
                 className={`p-4 h-[100px] rounded-[10px] ${card.bg} shadow-sm border border-white overflow-hidden flex flex-col justify-center`}
               >
-                <span className="text-[#692D94] font-[Quicksand] not-italic font-normal leading-none text-[24px] mb-2">
+                <span className="text-[#4F2270] font-[Quicksand] not-italic font-normal leading-none text-[24px] mb-2">
                   {card.number}
                 </span>
-                <p className="text-[#692D94] text-[16px] font-medium leading-none tracking-[-0.32px] text-left">
+                <p className="text-[#4F2270] text-[16px] font-medium leading-none tracking-[-0.32px] text-left">
                   {card.text}
                 </p>
               </article>
@@ -163,10 +163,10 @@ const TransvaginalFour = () => {
           card.spanFull ? "col-span-4" : "col-span-2"
         }`}
       >
-        <span className="text-[#692D94] font-[Quicksand] text-[24px] leading-none mb-2">
+        <span className="text-[#4F2270] font-[Quicksand] text-[24px] leading-none mb-2">
           {card.number}
         </span>
-        <p className="text-[#692D94] text-[16px] font-medium leading-none tracking-[-0.32px]">
+        <p className="text-[#4F2270] text-[16px] font-medium leading-none tracking-[-0.32px]">
           {card.text}
         </p>
       </div>
@@ -183,7 +183,7 @@ const TransvaginalFour = () => {
       <div className="md:hidden flex flex-col w-full gap-6 px-4 py-8">
         {/* Mobile Main Heading */}
         <h2 className="text-left">
-          <span className="text-[#692D94] text-[24px] sm:text-[28px] font-semibold leading-[1.2] capitalize">
+          <span className="text-[#4F2270] text-[24px] sm:text-[28px] font-semibold leading-[1.2] capitalize">
             Overview of the{" "}
           </span>
 
@@ -199,7 +199,7 @@ const TransvaginalFour = () => {
         </p>
 
         {/* Mobile Secondary Heading */}
-        <h3 className="text-[#692D94] text-[35px] font-semibold leading-normal capitalize mb-8">
+        <h3 className="text-[#4F2270] text-[35px] font-semibold leading-normal capitalize mb-8">
 manufacturers failed to warn doctors and patients about severe risks 
        </h3>
          <p className="text-[#757575] text-[18px] font-medium leading-normal mb-8 max-w-[1200px]">
@@ -213,10 +213,10 @@ manufacturers failed to warn doctors and patients about severe risks
               key={card.number}
               className="w-full bg-white rounded-[10px] border border-white p-4 shadow-sm text-left"
             >
-              <span className="text-[#692D94] text-[20px] font-semibold leading-normal mb-2 block">
+              <span className="text-[#4F2270] text-[20px] font-semibold leading-normal mb-2 block">
                 {card.number}
               </span>
-              <p className="text-[#692D94] text-[16px] font-medium leading-normal">
+              <p className="text-[#4F2270] text-[16px] font-medium leading-normal">
                 {card.text}
               </p>
             </div>

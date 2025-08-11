@@ -6,7 +6,7 @@ const PFASOne = () => {
   return (
     <>
       {/* Desktop/Laptop/Tablet Hero Section */}
-      <section className="hidden sm:flex relative w-full min-h-[45vh] md:min-h-[75vh] lg:min-h-[80] xl:min-h-[85vh] items-center justify-center overflow-hidden">
+      <section className="hidden sm:flex relative w-full min-h-[45vh] md:min-h-[85vh] lg:min-h-[80] xl:min-h-[85vh] items-center justify-center overflow-hidden">
         {/* Background Image */}
         <img
           src={herobg}

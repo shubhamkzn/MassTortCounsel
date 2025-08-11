@@ -65,7 +65,7 @@ const ServiceThree = () => {
     <section className="px-4 sm:px-8 md:px-16 lg:px-24 py-12 bg-white w-full font-[Quicksand]">
       <div className="w-full max-w-[1280px] mx-auto">
         <div className="mb-8">
-          <h2 className="text-2xl md:text-3xl font-semibold text-[#692D94]">
+          <h2 className="text-2xl md:text-3xl font-semibold text-[#4F2270]">
             What Do We <span className="text-[#EDC14A]">Help You</span> With?
           </h2>
         </div>
@@ -89,7 +89,7 @@ const ServiceThree = () => {
                 <div className="p-4">
                   <p className="text-sm text-[#6b7280] leading-snug">{item.description}</p>
                   <Link to={item.link}>
-                    <button className="mt-4 px-4 py-2 border border-[#692D94] text-[#692D94]  rounded-[6px] text-sm transition-colors duration-200 hover:bg-yellow-400">
+                    <button className="mt-4 px-4 py-2 border border-[#4F2270] text-[#4F2270]  rounded-[6px] text-sm transition-colors duration-200 hover:bg-yellow-400">
                       Learn More
                     </button>
                   </Link>
@@ -118,7 +118,7 @@ const ServiceThree = () => {
                     {item.description}
                   </p>
                   <Link to={item.link}>
-                    <button className="mt-2 px-4 py-2 border border-[#692D94] text-[#692D94]  rounded-[6px] text-sm transition-colors duration-200 hover:bg-yellow-400">
+                    <button className="mt-2 px-4 py-2 border border-[#4F2270] text-[#4F2270]  rounded-[6px] text-sm transition-colors duration-200 hover:bg-yellow-400">
                       Learn More
                     </button>
                   </Link>

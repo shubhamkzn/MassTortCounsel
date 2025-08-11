@@ -55,7 +55,7 @@ const RoundUpFour = () => {
         <div className="w-full max-w-[1440px] mx-auto px-[80px] py-[60px]">
           {/* Main Heading - Dual Color */}
           <h2 className="mb-6">
-            <span className="text-[#692D94] text-[35px] font-semibold leading-normal capitalize overflow-hidden text-ellipsis">
+            <span className="text-[#4F2270] text-[35px] font-semibold leading-normal capitalize overflow-hidden text-ellipsis">
               Overview of the{' '}
             </span>
             <span className="text-[#EDC14A] text-[35px] font-semibold leading-normal capitalize overflow-hidden text-ellipsis">
@@ -69,7 +69,7 @@ Roundup is one of the most widely used weed killers in the world. Its active ing
 Thousands of lawsuits claim that Monsanto (now owned by Bayer) failed to warn users about the cancer risks associated with glyphosate. Multiple jury verdicts have awarded plaintiffs millions in damages.           </p>
  
           {/* Secondary Heading */}
-          <h3 className="text-[#692D94] text-[35px] font-semibold leading-normal capitalize mb-8">
+          <h3 className="text-[#4F2270] text-[35px] font-semibold leading-normal capitalize mb-8">
             This lawsuit targets:
           </h3>
  
@@ -80,10 +80,10 @@ Thousands of lawsuits claim that Monsanto (now owned by Bayer) failed to warn us
                 key={card.number}
                 className={`p-4 h-[100px] rounded-[10px] ${card.bg} shadow-sm border border-white overflow-hidden flex flex-col justify-center`}
               >
-                <span className="text-[#692D94] font-[Quicksand] not-italic font-normal leading-none text-[24px] mb-2">
+                <span className="text-[#4F2270] font-[Quicksand] not-italic font-normal leading-none text-[24px] mb-2">
                   {card.number}
                 </span>
-                <p className="text-[#692D94] text-[16px] font-medium leading-none tracking-[-0.32px] text-left">
+                <p className="text-[#4F2270] text-[16px] font-medium leading-none tracking-[-0.32px] text-left">
                   {card.text}
                 </p>
               </article>
@@ -96,7 +96,7 @@ Thousands of lawsuits claim that Monsanto (now owned by Bayer) failed to warn us
       <div className="md:hidden flex flex-col w-full gap-6 px-4 py-8">
         {/* Mobile Main Heading */}
         <h2 className="text-left">
-          <span className="text-[#692D94] text-[24px] sm:text-[28px] font-semibold leading-[1.2] capitalize">
+          <span className="text-[#4F2270] text-[24px] sm:text-[28px] font-semibold leading-[1.2] capitalize">
             Overview of the{' '}
           </span>
          
@@ -112,7 +112,7 @@ Roundup is one of the most widely used weed killers in the world. Its active ing
 Thousands of lawsuits claim that Monsanto (now owned by Bayer) failed to warn users about the cancer risks associated with glyphosate. Multiple jury verdicts have awarded plaintiffs millions in damages.   </p>
  
         {/* Mobile Secondary Heading */}
-        <h3 className="text-[#692D94] text-[24px] sm:text-[28px] font-semibold leading-[1.2] capitalize text-left">
+        <h3 className="text-[#4F2270] text-[24px] sm:text-[28px] font-semibold leading-[1.2] capitalize text-left">
           This lawsuit targets:
         </h3>
  
@@ -123,10 +123,10 @@ Thousands of lawsuits claim that Monsanto (now owned by Bayer) failed to warn us
               key={card.number}
               className="w-full bg-white rounded-[10px] border border-white p-4 shadow-sm text-left"
             >
-              <span className="text-[#692D94] text-[20px] font-semibold leading-normal mb-2 block">
+              <span className="text-[#4F2270] text-[20px] font-semibold leading-normal mb-2 block">
                 {card.number}
               </span>
-              <p className="text-[#692D94] text-[16px] font-medium leading-normal">
+              <p className="text-[#4F2270] text-[16px] font-medium leading-normal">
                 {card.text}
               </p>
             </div>

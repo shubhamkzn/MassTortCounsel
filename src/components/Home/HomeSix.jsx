@@ -36,7 +36,7 @@ const HomeSix = () => {
       style={{ fontFamily: "Quicksand, sans-serif" }}
     >
       {/* Title */}
-      <h2 className="text-[32px] sm:text-[40px] font-semibold text-[#692D94] mb-6 capitalize leading-none">
+      <h2 className="text-[32px] sm:text-[40px] font-semibold text-[#4F2270] mb-6 capitalize leading-none">
         Frequently Asked{" "}
         <span className="text-[#EDC14A] font-semibold capitalize">
           Questions
@@ -57,13 +57,13 @@ const HomeSix = () => {
               } transition`}
               style={{ fontFamily: "Quicksand, sans-serif" }}
             >
-              <span className="text-[#692D94] text-[20px] sm:text-[24px] font-semibold leading-normal">
+              <span className="text-[#4F2270] text-[20px] sm:text-[24px] font-semibold leading-normal">
                 {item.question}
               </span>
               <span className="text-[18px] font-light select-none">
                 <ChevronDown
                   className={`w-5 h-5 transform transition-transform duration-300 
-      ${activeIndex === idx ? "rotate-180 text-[#EDC14A]" : "text-[#692D94]"}`}
+      ${activeIndex === idx ? "rotate-180 text-[#EDC14A]" : "text-[#4F2270]"}`}
                 />
               </span>
             </button>

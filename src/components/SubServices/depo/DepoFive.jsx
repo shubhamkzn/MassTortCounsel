@@ -66,8 +66,8 @@ export default function EligibilityCriteria() {
       {/* ✅ Laptop & Large Screen Layout (≥1024px) */}
      <div className="hidden lg:grid max-w-[1200px] mx-auto grid-cols-[420px_auto] xl:grid-cols-[450px_auto] gap-x-[48px] xl:gap-x-[60px] gap-y-12 px-4 lg:px-6 items-center">
         <div className="max-w-[405px] flex flex-col justify-center">
-          <h2 className="text-[#692D94] text-[32px] xl:text-[40px] font-semibold capitalize leading-[1.2]">
-            You May <span className="text-[#EDC14A]">Qualify<br></br> To File </span><span className="text-[#692D94]">A Lawsuit<br /> If You...!</span>
+          <h2 className="text-[#4F2270] text-[32px] xl:text-[40px] font-semibold capitalize leading-[1.2]">
+            You May <span className="text-[#EDC14A]">Qualify<br></br> To File </span><span className="text-[#4F2270]">A Lawsuit<br /> If You...!</span>
           </h2>
           <p className="text-[#757575] text-[13px] xl:text-[14px] font-medium leading-[20px] xl:leading-[22px]">
   Unsure?{' '}
@@ -87,10 +87,10 @@ export default function EligibilityCriteria() {
               key={card.number}
               className={`flex flex-col justify-center items-start gap-[6px] p-4 w-[260px] xl:w-[325px] h-[100px] rounded-[10px] ${card.bg} shadow-sm border border-white overflow-hidden`}
             >
-              <span className="text-[#692D94] font-[Quicksand] not-italic font-medium leading-none text-[25px] xl:text-[28px]">
+              <span className="text-[#4F2270] font-[Quicksand] not-italic font-medium leading-none text-[25px] xl:text-[28px]">
                 {card.number}
               </span>
-              <p className="text-[#692D94] text-[12px] xl:text-[13px] font-medium leading-none tracking-[-0.32px] capitalize text-left">
+              <p className="text-[#4F2270] text-[12px] xl:text-[13px] font-medium leading-none tracking-[-0.32px] capitalize text-left">
                 {card.text}
               </p>
             </article>
@@ -102,10 +102,10 @@ export default function EligibilityCriteria() {
       {/* ✅ Tablet Layout (md only) */}
       <div className="hidden md:flex lg:hidden max-w-[1200px] mx-auto flex-col items-center gap-6 px-4 py-2 md:gap-6 xl:gap-8">
         <div className="w-full text-center -mt-8">
-          <h2 className="text-[#692D94] text-[28px] lg:text-[32px] font-semibold capitalize leading-normal">
+          <h2 className="text-[#4F2270] text-[28px] lg:text-[32px] font-semibold capitalize leading-normal">
             You May <span className="text-[#EDC14A]">Qualify To File </span>
             <br />
-            <span className="text-[#692D94]">A Lawsuit If You...!</span>
+            <span className="text-[#4F2270]">A Lawsuit If You...!</span>
           </h2>
           <p className="text-[#757575] text-[13px] xl:text-[14px] font-medium leading-[20px] xl:leading-[22px]">
             Unsure?{" "}
@@ -125,10 +125,10 @@ export default function EligibilityCriteria() {
               key={card.number}
               className={`flex flex-col justify-center items-start gap-[12px] p-8 w-[280px] lg:w-[320px] h-[160px] rounded-[10px] ${card.bg} shadow-sm border border-white overflow-hidden`}
             >
-              <span className="text-[#692D94] font-[Quicksand] not-italic font-normal leading-none text-[20px]">
+              <span className="text-[#4F2270] font-[Quicksand] not-italic font-normal leading-none text-[20px]">
                 {card.number}
               </span>
-              <p className="text-[#692D94] text-[14px] lg:text-[15px] xl:text-[16px] font-medium leading-none tracking-[-0.32px] capitalize text-left">
+              <p className="text-[#4F2270] text-[14px] lg:text-[15px] xl:text-[16px] font-medium leading-none tracking-[-0.32px] capitalize text-left">
                 {card.text}
               </p>
             </article>
@@ -138,7 +138,7 @@ export default function EligibilityCriteria() {
 
       {/* ✅ Mobile Layout (below md) */}
       <div className="md:hidden flex flex-col  gap-6 px-4">
-        <h2 className="text-[#692D94] text-[30px] font-semibold capitalize leading-snug text-left">
+        <h2 className="text-[#4F2270] text-[30px] font-semibold capitalize leading-snug text-left">
           You May <span className="text-[#EDC14A]">Qualify</span>{" "}
           <span className="text-[#EDC14A]">To</span>{" "}
           <span className="text-[#EDC14A]">File</span> A Lawsuit If You
@@ -162,10 +162,10 @@ export default function EligibilityCriteria() {
               key={card.number}
               className={`flex flex-col justify-center items-start text-left gap-[8px] p-5 w-full rounded-[10px] ${card.bg} shadow-sm border border-white overflow-hidden`}
             >
-              <span className="text-[#692D94] text-[35px] font-normal font-[Quicksand] leading-none">
+              <span className="text-[#4F2270] text-[35px] font-normal font-[Quicksand] leading-none">
                 {card.number}
               </span>
-              <p className="text-[#692D94] text-[16px] font-medium font-[Quicksand] leading-none tracking-[-0.32px] capitalize">
+              <p className="text-[#4F2270] text-[16px] font-medium font-[Quicksand] leading-none tracking-[-0.32px] capitalize">
                 {card.text}
               </p>
             </article>

@@ -225,7 +225,7 @@ const FloatingInput = ({ type, id, label, value, onChange, error }) => {
         onChange={onChange}
         onFocus={() => setFocused(true)}
         onBlur={(e) => setFocused(e.target.value !== '' || focused)}
-        className={`peer w-full border ${error ? 'border-red-500' : 'border-gray-300'} rounded-lg px-4 pt-6 pb-2 focus:outline-none focus:ring-2 ${error ? 'focus:ring-red-500' : 'focus:ring-blue-400'} bg-[#692D941A] text-[#692D94] font-medium`}
+        className={`peer w-full border ${error ? 'border-red-500' : 'border-gray-300'} rounded-lg px-4 pt-6 pb-2 focus:outline-none focus:ring-2 ${error ? 'focus:ring-red-500' : 'focus:ring-blue-400'} bg-[#4F22701A] text-[#4F2270] font-medium`}
         style={{ fontFamily: 'Quicksand, sans-serif' }}
         placeholder=" "
       />
@@ -256,7 +256,7 @@ const FloatingTextarea = ({ id, label, value, onChange }) => {
         onFocus={() => setFocused(true)}
         onBlur={(e) => setFocused(e.target.value !== '' || focused)}
         rows={4}
-        className="peer w-full border border-gray-300 rounded-lg px-4 pt-6 pb-2 focus:outline-none focus:ring-2 focus:ring-blue-400 bg-[#692D941A] text-[#692D94] font-medium resize-vertical"
+        className="peer w-full border border-gray-300 rounded-lg px-4 pt-6 pb-2 focus:outline-none focus:ring-2 focus:ring-blue-400 bg-[#4F22701A] text-[#4F2270] font-medium resize-vertical"
         style={{ fontFamily: 'Quicksand, sans-serif' }}
         placeholder=" "
       />
@@ -526,7 +526,7 @@ const DesktopForm = () => {
             required
             value={formData.category}
             onChange={handleChange}
-            className="w-full border border-gray-300 rounded-lg px-4 py-5 focus:outline-none focus:ring-2 focus:ring-blue-400 appearance-none bg-[#692D941A] text-[#692D94]"
+            className="w-full border border-gray-300 rounded-lg px-4 py-5 focus:outline-none focus:ring-2 focus:ring-blue-400 appearance-none bg-[#4F22701A] text-[#4F2270]"
             style={{ fontFamily: 'Quicksand, sans-serif' }}
           >
             <option value="">Lawsuit Type</option>
@@ -566,7 +566,7 @@ const DesktopForm = () => {
               type="submit"
               className="flex items-center justify-center font-semibold min-w-[180px] md:min-w-[320px] px-8 md:px-32 py-4 rounded-lg shadow transition text-base md:text-lg hover:bg-blue-700"
               style={{
-                backgroundColor: '#692D94',
+                backgroundColor: '#4F2270',
                 color: '#fff',
                 fontFamily: 'Quicksand, sans-serif',
                 whiteSpace: 'nowrap',
@@ -653,7 +653,7 @@ const DesktopForm = () => {
               loading ? 'opacity-50 cursor-not-allowed' : 'hover:bg-blue-700'
             }`}
             style={{
-              backgroundColor: '#692D94',
+              backgroundColor: '#4F2270',
               color: '#fff',
               fontFamily: 'Quicksand, sans-serif',
               whiteSpace: 'nowrap',
@@ -881,7 +881,7 @@ const MobileForm = () => {
             required
             value={formData.category}
             onChange={handleChange}
-            className="w-full border border-gray-300 rounded-lg px-4 py-4 focus:outline-none focus:ring-2 focus:ring-blue-400 appearance-none bg-[#692D941A] text-[#692D94]"
+            className="w-full border border-gray-300 rounded-lg px-4 py-4 focus:outline-none focus:ring-2 focus:ring-blue-400 appearance-none bg-[#4F22701A] text-[#4F2270]"
             style={{ fontFamily: 'Quicksand, sans-serif' }}
           >
             <option value="">Lawsuit Type</option>
@@ -914,7 +914,7 @@ const MobileForm = () => {
             type="submit"
             className="flex items-center justify-center font-semibold w-full py-4 rounded-lg shadow transition text-base hover:bg-blue-700"
             style={{
-              backgroundColor: '#692D94',
+              backgroundColor: '#4F2270',
               color: '#fff',
               fontFamily: 'Quicksand, sans-serif',
               whiteSpace: 'nowrap',
@@ -998,7 +998,7 @@ const MobileForm = () => {
               loading ? 'opacity-50 cursor-not-allowed' : 'hover:bg-blue-700'
             }`}
             style={{
-              backgroundColor: '#692D94',
+              backgroundColor: '#4F2270',
               color: '#fff',
               fontFamily: 'Quicksand, sans-serif',
               whiteSpace: 'nowrap',
@@ -1032,7 +1032,7 @@ const HomeTwoo = () => {
       <div className="bg-white border border-gray-200 rounded-xl shadow-2xl p-4 sm:p-8 w-full max-w-3xl md:max-w-4xl lg:max-w-5xl xl:max-w-6xl min-h-[450px] flex flex-col justify-center">
         <h2
           className="text-3xl md:text-4xl font-semibold mb-6 text-left"
-          style={{ color: '#692D94', fontFamily: 'Quicksand, sans-serif' }}
+          style={{ color: '#4F2270', fontFamily: 'Quicksand, sans-serif' }}
         >
           Get Your Free Case Review Today
         </h2>

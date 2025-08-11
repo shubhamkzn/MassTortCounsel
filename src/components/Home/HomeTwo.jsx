@@ -237,7 +237,7 @@ const FloatingInput = ({
             error ? "border-red-500" : "border-gray-300"
           } rounded-lg px-4 pt-6 pb-2 focus:outline-none focus:ring-2 ${
             error ? "focus:ring-red-500" : "focus:ring-blue-400"
-          } bg-[#E7E9F4] text-[#692D94] font-medium ${
+          } bg-[#E7E9F4] text-[#4F2270] font-medium ${
             readOnly ? "cursor-not-allowed opacity-75" : ""
           }`}
           style={{ fontFamily: "Quicksand, sans-serif" }}
@@ -271,7 +271,7 @@ const FloatingInput = ({
             error ? "border-red-500" : "border-gray-300"
           } rounded-lg px-4 pt-6 pb-2 focus:outline-none focus:ring-2 ${
             error ? "focus:ring-red-500" : "focus:ring-blue-400"
-          } bg-[#E7E9F4] text-[#692D94] font-medium ${
+          } bg-[#E7E9F4] text-[#4F2270] font-medium ${
             readOnly ? "cursor-not-allowed opacity-75" : ""
           }`}
           style={{ fontFamily: "Quicksand, sans-serif" }}
@@ -306,7 +306,7 @@ const FloatingTextarea = ({ id, label, value, onChange }) => {
         onFocus={() => setFocused(true)}
         onBlur={(e) => setFocused(e.target.value !== "" || focused)}
         rows={4}
-        className="peer w-full border border-gray-300 rounded-lg px-4 pt-6 pb-2 focus:outline-none focus:ring-2 focus:ring-blue-400 bg-[#E7E9F4] text-[#692D94] font-medium resize-vertical"
+        className="peer w-full border border-gray-300 rounded-lg px-4 pt-6 pb-2 focus:outline-none focus:ring-2 focus:ring-blue-400 bg-[#E7E9F4] text-[#4F2270] font-medium resize-vertical"
         style={{ fontFamily: "Quicksand, sans-serif" }}
         placeholder=" "
       />
@@ -353,11 +353,11 @@ const CustomDropdown = ({
           error ? "border-red-500" : "border-gray-300"
         } rounded-lg px-4 pt-6 pb-2 focus:outline-none focus:ring-2 ${
           error ? "focus:ring-red-500" : "focus:ring-blue-400"
-        } appearance-none bg-[#E7E9F4] text-[#692D94] text-left flex items-center justify-between text-base font-medium`}
+        } appearance-none bg-[#E7E9F4] text-[#4F2270] text-left flex items-center justify-between text-base font-medium`}
         style={{ fontFamily: "Quicksand, sans-serif" }}
         onClick={() => setIsOpen(!isOpen)}
       >
-        <span className="text-[#692D94]">
+        <span className="text-[#4F2270]">
           {selectedOption ? selectedOption.label : placeholder}
         </span>
         <ChevronDown
@@ -386,11 +386,11 @@ const CustomDropdown = ({
                 key={option.value}
                 type="button"
                 onClick={() => handleSelect(option.value, option.label)}
-                className="group w-full text-left px-4 py-3 text-base text-[#692D94]  hover:text-[#692D94] transition-colors relative flex items-center justify-between font-medium"
+                className="group w-full text-left px-4 py-3 text-base text-[#4F2270]  hover:text-[#4F2270] transition-colors relative flex items-center justify-between font-medium"
               >
                 <span>{option.label}</span>
                 <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-200">
-                  <div className="w-5 h-5 bg-[#692D94] rounded-full flex items-center justify-center">
+                  <div className="w-5 h-5 bg-[#4F2270] rounded-full flex items-center justify-center">
                     <Check className="w-3 h-3 text-white" />
                   </div>
                 </div>
@@ -1036,9 +1036,9 @@ const DesktopForm = () => {
           <div className="flex justify-end w-full lg:w-auto">
             <button
               type="submit"
-              className="flex items-center justify-center font-semibold w-full min-w-[220px] lg:min-w-[240px] lg:w-auto px-6 lg:px-16 py-4 rounded-lg shadow transition text-base lg:text-lg hover:bg-[#692D94]"
+              className="flex items-center justify-center font-semibold w-full min-w-[220px] lg:min-w-[240px] lg:w-auto px-6 lg:px-16 py-4 rounded-lg shadow transition text-base lg:text-lg hover:bg-[#4F2270]"
               style={{
-                backgroundColor: "#692D94",
+                backgroundColor: "#4F2270",
                 color: "#fff",
                 fontFamily: "Quicksand, sans-serif",
                 whiteSpace: "nowrap",
@@ -1128,7 +1128,7 @@ const DesktopForm = () => {
         <button
           type="button"
           onClick={goToPreviousStep}
-          className="flex items-center justify-center font-semibold min-w-[180px] md:min-w-[200px] px-8 py-4 rounded-lg shadow transition text-base md:text-lg border-2 border-gray-400 text-[#692D94]  hover:bg-gray-50"
+          className="flex items-center justify-center font-semibold min-w-[180px] md:min-w-[200px] px-8 py-4 rounded-lg shadow transition text-base md:text-lg border-2 border-gray-400 text-[#4F2270]  hover:bg-gray-50"
           style={{
             fontFamily: "Quicksand, sans-serif",
             whiteSpace: "nowrap",
@@ -1144,7 +1144,7 @@ const DesktopForm = () => {
               loading ? "opacity-50 cursor-not-allowed" : "hover:bg-blue-700"
             }`}
             style={{
-              backgroundColor: "#692D94",
+              backgroundColor: "#4F2270",
               color: "#fff",
               fontFamily: "Quicksand, sans-serif",
               whiteSpace: "nowrap",
@@ -1694,9 +1694,9 @@ const MobileForm = () => {
         <div className="flex justify-end">
           <button
             type="submit"
-            className="flex items-center justify-center font-semibold w-full py-4 rounded-lg shadow transition text-base hover:bg-[#692D94]"
+            className="flex items-center justify-center font-semibold w-full py-4 rounded-lg shadow transition text-base hover:bg-[#4F2270]"
             style={{
-              backgroundColor: "#692D94",
+              backgroundColor: "#4F2270",
               color: "#fff",
               fontFamily: "Quicksand, sans-serif",
               whiteSpace: "nowrap",
@@ -1782,7 +1782,7 @@ const MobileForm = () => {
         <button
           type="button"
           onClick={goToPreviousStep}
-          className="flex items-center justify-center font-semibold flex-1 py-4 rounded-lg shadow transition text-base border-2 border-gray-400 text-[#692D94]  hover:bg-gray-50"
+          className="flex items-center justify-center font-semibold flex-1 py-4 rounded-lg shadow transition text-base border-2 border-gray-400 text-[#4F2270]  hover:bg-gray-50"
           style={{
             fontFamily: "Quicksand, sans-serif",
             whiteSpace: "nowrap",
@@ -1798,7 +1798,7 @@ const MobileForm = () => {
               loading ? "opacity-50 cursor-not-allowed" : "hover:bg-blue-700"
             }`}
             style={{
-              backgroundColor: "#692D94",
+              backgroundColor: "#4F2270",
               color: "#fff",
               fontFamily: "Quicksand, sans-serif",
               whiteSpace: "nowrap",
@@ -1832,7 +1832,7 @@ const HomeTwo = () => {
       <div className="bg-white border border-gray-200 rounded-xl shadow-2xl p-4 sm:p-8 w-full max-w-3xl md:max-w-4xl lg:max-w-5xl xl:max-w-6xl min-h-[450px] flex flex-col justify-center">
         <h2
           className="text-3xl md:text-4xl font-semibold mb-6 text-left"
-          style={{ color: "#692D94", fontFamily: "Quicksand, sans-serif" }}
+          style={{ color: "#4F2270", fontFamily: "Quicksand, sans-serif" }}
         >
           Get Your Free Case Review Today
         </h2>
@@ -2089,7 +2089,7 @@ export default HomeTwo;
 //         onFocus={() => setFocused(true)}
 //         onBlur={(e) => setFocused(e.target.value !== '' || focused)}
 //         readOnly={readOnly}
-//         className={`peer w-full border ${error ? 'border-red-500' : 'border-gray-300'} rounded-lg px-4 pt-6 pb-2 focus:outline-none focus:ring-2 ${error ? 'focus:ring-red-500' : 'focus:ring-blue-400'} bg-[#E7E9F4] text-[#692D94] font-medium ${readOnly ? 'cursor-not-allowed opacity-75' : ''}`}
+//         className={`peer w-full border ${error ? 'border-red-500' : 'border-gray-300'} rounded-lg px-4 pt-6 pb-2 focus:outline-none focus:ring-2 ${error ? 'focus:ring-red-500' : 'focus:ring-blue-400'} bg-[#E7E9F4] text-[#4F2270] font-medium ${readOnly ? 'cursor-not-allowed opacity-75' : ''}`}
 //         style={{ fontFamily: 'Quicksand, sans-serif' }}
 //         placeholder=" "
 //       />
@@ -2123,7 +2123,7 @@ export default HomeTwo;
 //         onFocus={() => setFocused(true)}
 //         onBlur={(e) => setFocused(e.target.value !== '' || focused)}
 //         rows={4}
-//         className="peer w-full border border-gray-300 rounded-lg px-4 pt-6 pb-2 focus:outline-none focus:ring-2 focus:ring-blue-400 bg-[#E7E9F4] text-[#692D94] font-medium resize-vertical"
+//         className="peer w-full border border-gray-300 rounded-lg px-4 pt-6 pb-2 focus:outline-none focus:ring-2 focus:ring-blue-400 bg-[#E7E9F4] text-[#4F2270] font-medium resize-vertical"
 //         style={{ fontFamily: 'Quicksand, sans-serif' }}
 //         placeholder=" "
 //       />
@@ -2158,11 +2158,11 @@ export default HomeTwo;
 //     <div className="relative w-full">
 //       <button
 //         type="button"
-//         className="w-full border border-gray-300 rounded-lg px-4 py-5 focus:outline-none focus:ring-2 focus:ring-blue-400 appearance-none bg-[#E7E9F4] text-[#692D94] text-left flex items-center justify-between"
+//         className="w-full border border-gray-300 rounded-lg px-4 py-5 focus:outline-none focus:ring-2 focus:ring-blue-400 appearance-none bg-[#E7E9F4] text-[#4F2270] text-left flex items-center justify-between"
 //         style={{ fontFamily: 'Quicksand, sans-serif' }}
 //         onClick={() => setIsOpen(!isOpen)}
 //       >
-//         <span className={selectedOption ? 'text-[#692D94]' : 'text-gray-500'}>
+//         <span className={selectedOption ? 'text-[#4F2270]' : 'text-gray-500'}>
 //           {selectedOption ? selectedOption.label : placeholder}
 //         </span>
 //         <ChevronDown className={`w-5 h-5 text-gray-400 transition-transform ${isOpen ? 'rotate-180' : ''}`} />
@@ -2176,11 +2176,11 @@ export default HomeTwo;
 //                 key={option.value}
 //                 type="button"
 //                 onClick={() => handleSelect(option.value, option.label)}
-//                 className="group w-full text-left px-4 py-3 text-sm text-[#692D94]  hover:text-[#692D94] transition-colors relative flex items-center justify-between"
+//                 className="group w-full text-left px-4 py-3 text-sm text-[#4F2270]  hover:text-[#4F2270] transition-colors relative flex items-center justify-between"
 //               >
 //                 <span>{option.label}</span>
 //                 <div className="opacity-0 group-hover:opacity-100 transition-opacity duration-200">
-//                   <div className="w-5 h-5 bg-[#692D94] rounded-full flex items-center justify-center">
+//                   <div className="w-5 h-5 bg-[#4F2270] rounded-full flex items-center justify-center">
 //                     <Check className="w-3 h-3 text-white" />
 //                   </div>
 //                 </div>
@@ -2607,7 +2607,7 @@ export default HomeTwo;
 //     type="submit"
 //     className="flex items-center justify-center font-semibold w-full min-w-[220px] lg:min-w-[240px] lg:w-auto px-6 lg:px-16 py-4 rounded-lg shadow transition text-base lg:text-lg hover:bg-blue-700"
 //     style={{
-//       backgroundColor: '#692D94',
+//       backgroundColor: '#4F2270',
 //       color: '#fff',
 //       fontFamily: 'Quicksand, sans-serif',
 //       whiteSpace: 'nowrap',
@@ -2683,7 +2683,7 @@ export default HomeTwo;
 //         <button
 //           type="button"
 //           onClick={goToPreviousStep}
-//           className="flex items-center justify-center font-semibold min-w-[180px] md:min-w-[200px] px-8 py-4 rounded-lg shadow transition text-base md:text-lg border-2 border-gray-400 text-[#692D94]  hover:bg-gray-50"
+//           className="flex items-center justify-center font-semibold min-w-[180px] md:min-w-[200px] px-8 py-4 rounded-lg shadow transition text-base md:text-lg border-2 border-gray-400 text-[#4F2270]  hover:bg-gray-50"
 //           style={{
 //             fontFamily: 'Quicksand, sans-serif',
 //             whiteSpace: 'nowrap',
@@ -2699,7 +2699,7 @@ export default HomeTwo;
 //               loading ? 'opacity-50 cursor-not-allowed' : 'hover:bg-blue-700'
 //             }`}
 //             style={{
-//               backgroundColor: '#692D94',
+//               backgroundColor: '#4F2270',
 //               color: '#fff',
 //               fontFamily: 'Quicksand, sans-serif',
 //               whiteSpace: 'nowrap',
@@ -3066,7 +3066,7 @@ export default HomeTwo;
 //             type="submit"
 //             className="flex items-center justify-center font-semibold w-full py-4 rounded-lg shadow transition text-base hover:bg-blue-700"
 //             style={{
-//               backgroundColor: '#692D94',
+//               backgroundColor: '#4F2270',
 //               color: '#fff',
 //               fontFamily: 'Quicksand, sans-serif',
 //               whiteSpace: 'nowrap',
@@ -3134,7 +3134,7 @@ export default HomeTwo;
 //         <button
 //           type="button"
 //           onClick={goToPreviousStep}
-//           className="flex items-center justify-center font-semibold flex-1 py-4 rounded-lg shadow transition text-base border-2 border-gray-400 text-[#692D94]  hover:bg-gray-50"
+//           className="flex items-center justify-center font-semibold flex-1 py-4 rounded-lg shadow transition text-base border-2 border-gray-400 text-[#4F2270]  hover:bg-gray-50"
 //           style={{
 //             fontFamily: 'Quicksand, sans-serif',
 //             whiteSpace: 'nowrap',
@@ -3150,7 +3150,7 @@ export default HomeTwo;
 //               loading ? 'opacity-50 cursor-not-allowed' : 'hover:bg-blue-700'
 //             }`}
 //             style={{
-//               backgroundColor: '#692D94',
+//               backgroundColor: '#4F2270',
 //               color: '#fff',
 //               fontFamily: 'Quicksand, sans-serif',
 //               whiteSpace: 'nowrap',
@@ -3184,7 +3184,7 @@ export default HomeTwo;
 //       <div className="bg-white border border-gray-200 rounded-xl shadow-2xl p-4 sm:p-8 w-full max-w-3xl md:max-w-4xl lg:max-w-5xl xl:max-w-6xl min-h-[450px] flex flex-col justify-center">
 //         <h2
 //           className="text-3xl md:text-4xl font-semibold mb-6 text-left"
-//           style={{ color: '#692D94', fontFamily: 'Quicksand, sans-serif' }}
+//           style={{ color: '#4F2270', fontFamily: 'Quicksand, sans-serif' }}
 //         >
 //           Get Your Free Case Review Today
 //         </h2>

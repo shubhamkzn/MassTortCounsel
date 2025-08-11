@@ -62,24 +62,24 @@ const HomeThree = () => {
       {/* Header */}
       {isDesktop ? (
         <div className="flex justify-between items-center mb-8 flex-wrap gap-4">
-          <h2 className="text-2xl md:text-3xl font-semibold text-[#692D94]">
+          <h2 className="text-2xl md:text-3xl font-semibold text-[#4F2270]">
             What Do We <span className="text-[#EDC14A]">Help</span> You With <span className="text-[#EDC14A]">?</span>
           </h2>
           <a
             href="/ServiceMain"
-            className="text-sm md:text-base font-semibold text-[#692D94] hover:underline whitespace-nowrap "
+            className="text-sm md:text-base font-semibold text-[#4F2270] hover:underline whitespace-nowrap "
            style={{ fontFamily: 'Quicksand, sans-serif' }} >
             See All Lawsuits <span className="text-[#EDC14A]">{'>'}</span>
           </a>
         </div>
       ) : (
         <div className="flex justify-between items-center mb-8  gap-4">
-          <h2 className="text-2xl md:text-3xl font-semibold text-[#692D94]">
+          <h2 className="text-2xl md:text-3xl font-semibold text-[#4F2270]">
             What Do We <span className="text-[#EDC14A]">Help You</span> With?
           </h2>
           <a
             href="/ServiceMain"
-            className="text-sm md:text-base font-bold text-[#692D94] hover:underline whitespace-nowrap"
+            className="text-sm md:text-base font-bold text-[#4F2270] hover:underline whitespace-nowrap"
           style={{ fontFamily: 'Quicksand, sans-serif' }} >
             See All <span className="text-[#EDC14A]">{'>'}</span>
           </a>
@@ -119,7 +119,7 @@ const HomeThree = () => {
                   {item.description}
                 </p>
                 <Link to={item.link}>
-  <button className="mt-4 px-4 py-2 border border-[#692D94] text-[#692D94]  rounded text-sm transition-colors duration-200 hover:bg-yellow-400">
+  <button className="mt-4 px-4 py-2 border border-[#4F2270] text-[#4F2270]  rounded text-sm transition-colors duration-200 hover:bg-yellow-400">
     Learn More
   </button>
 </Link>
@@ -162,7 +162,7 @@ const HomeThree = () => {
                   {item.description}
                 </p>
                 <Link to={item.link}>
-  <button className="mt-4 px-4 py-2 border border-[#692D94] text-[#692D94]  rounded text-sm transition-colors duration-200 hover:bg-yellow-400">
+  <button className="mt-4 px-4 py-2 border border-[#4F2270] text-[#4F2270]  rounded text-sm transition-colors duration-200 hover:bg-yellow-400">
     Learn More
   </button>
 </Link>
