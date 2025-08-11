@@ -1,12 +1,12 @@
 import React from 'react'
-import herobg from '../../../assets/subservice/talcumHero.png'
-import MobileHeroBg from '../../../assets/subservice/TalcumHeroMobile.png'
+import herobg from '../../../assets/subservice/Talcum_hero.png'
+import MobileHeroBg from '../../../assets/subservice/talcum_mobile_hero.png'
 
 const HomeOne = () => {
   return (
     <>
       {/* Desktop/Laptop/Tablet Hero Section */}
-      <section className="hidden sm:flex relative w-full min-h-[55vh] md:min-h-[85vh] lg:min-h-[85vh] items-center justify-center overflow-hidden">
+      <section className="hidden sm:flex relative w-full min-h-[45vh] md:min-h-[45vh] lg:min-h-[60vh] xl:min-h-[85vh] items-center justify-center overflow-hidden">
         {/* Background Image */}
         <img
           src={herobg}
@@ -29,7 +29,7 @@ const HomeOne = () => {
             className="text-sm sm:text-base md:text-xs lg:text-xl text-white mb-6 font-medium drop-shadow leading-relaxed"
             style={{ fontFamily: 'Quicksand, sans-serif' }}
           >
-          Talc-based products like Johnson’s Baby Powder have been linked to ovarian cancer in women.<br></br>   If you or a loved one were diagnosed, you may be eligible for financial settlement. 
+          Talc-based products like Johnson’s Baby Powder have been linked to ovarian cancer in women.<br></br>  If you or a loved one were diagnosed, you may be eligible for financial settlement. 
           </h2>
         </div>
       </section>
@@ -53,7 +53,7 @@ const HomeOne = () => {
       className="text-sm text-white mb-4 font-normal drop-shadow"
       style={{ fontFamily: 'Quicksand, sans-serif' }}
     >
-      Talc-based products like Johnson’s Baby Powder have been linked to ovarian cancer in women.   If you or a loved one were diagnosed, you may be eligible for financial settlement. 
+      Talc-based products like Johnson’s Baby Powder have been linked to ovarian cancer in women.  If you or a loved one were diagnosed, you may be eligible for financial settlement. 
     </h2> */}
   </div>
   {/* Overlay */}

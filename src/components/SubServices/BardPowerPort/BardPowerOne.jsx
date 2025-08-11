@@ -1,13 +1,13 @@
 import React from 'react'
-import herobg from '../../../assets/subservice/BardHero.png'
-import MobileHeroBg from  '../../../assets/subservice/BardHeroMobile.png'
+import herobg from '../../../assets/subservice/bard_hero.png'
+import MobileHeroBg from  '../../../assets/subservice/bard_mobile_hero.png'
 
 const HomeOne = () => {
   return (
     <>
       {/* Desktop/Laptop/Tablet Hero Section */}
       
-      <section className="hidden sm:flex relative w-full h-[50vh] md:h-[45vh] lg:h-[60vh] xl:h-[85vh] items-center justify-center overflow-hidden">
+      <section className="hidden sm:flex relative w-full min-h-[45vh] md:min-h-[45vh] lg:min-h-[60vh] xl:min-h-[85vh] items-center justify-center overflow-hidden">
 
         {/* Background Image */}
         <img

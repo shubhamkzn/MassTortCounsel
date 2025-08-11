@@ -1,12 +1,12 @@
 import React from 'react'
-import herobg from '../../../assets/affHero.png'
-import MobileHeroBg from '../../../assets/affHeroMob.png'
+import herobg from '../../../assets/Afff_hero.png'
+import MobileHeroBg from '../../../assets/Afff_mobb.png'
 
 const AFFOne = () => {
   return (
     <>
       {/* Desktop/Laptop/Tablet Hero Section */}
-<section className="hidden sm:flex relative w-full h-relative md:min-h-[55vh] md:min-w-[80vh] lg:min-h-[85vh] items-center justify-center overflow-hidden">
+<section className="hidden sm:flex relative w-full min-h-[45vh] md:min-h-[45vh] lg:min-h-[60vh] xl:min-h-[85vh] items-center justify-center overflow-hidden">
         {/* Background Image */}
         <img
           src={herobg}

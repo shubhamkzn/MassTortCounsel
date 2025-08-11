@@ -1,12 +1,12 @@
 import React from 'react'
-import herobg from '../../../assets/PFASHero.png'
-import MobileHeroBg from '../../../assets/PFASMobileHero.png'
+import herobg from '../../../assets/pfas_deskk.png'
+import MobileHeroBg from '../../../assets/pfas_mobb.png'
 
 const PFASOne = () => {
   return (
     <>
       {/* Desktop/Laptop/Tablet Hero Section */}
-      <section className="hidden sm:flex relative w-full min-h-[45vh] md:min-h-[85vh] lg:min-h-[80] xl:min-h-[85vh] items-center justify-center overflow-hidden">
+      <section className="hidden sm:flex relative w-fullmin-h-[45vh] md:min-h-[45vh] lg:min-h-[60vh] xl:min-h-[85vh] items-center justify-center overflow-hidden">
         {/* Background Image */}
         <img
           src={herobg}

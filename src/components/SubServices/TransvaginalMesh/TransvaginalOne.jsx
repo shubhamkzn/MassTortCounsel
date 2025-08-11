@@ -1,12 +1,12 @@
 import React from 'react'
-import herobg from '../../../assets/TransHero.png'
-import MobileHeroBg from '../../../assets/TransHeroMobile.png'
+import herobg from '../../../assets/trans_deskk.png'
+import MobileHeroBg from '../../../assets/trans_mobb.png'
 
 const TransvaginalOne = () => {
   return (
     <>
       {/* Desktop/Laptop/Tablet Hero Section */}
-      <section className="hidden sm:flex relative w-full min-h-[55vh] md:min-h-[85vh] lg:min-h-[80vh] xl:min-h-[85vh]  items-center justify-center overflow-hidden">
+      <section className="hidden sm:flex relative w-full min-h-[45vh] md:min-h-[45vh] lg:min-h-[60vh] xl:min-h-[85vh]  items-center justify-center overflow-hidden">
         {/* Background Image */}
         <img
           src={herobg}
