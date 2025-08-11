@@ -6,7 +6,7 @@ const ServiceOne = () => {
   return (
     <>
       {/* Desktop/Laptop/Tablet Hero Section */}
-      <section className="hidden sm:flex relative items-center justify-between overflow-hidden bg-gradient-to-r from-[#4F2270] to-[#0100AF]
+      <section className="hidden sm:flex relative items-center justify-between overflow-hidden bg-gradient-to-r from-[#4F2270] to-[#4F2270]
         h-[27.85vh]
         md:h-[301px]
         lg:h-[351px]

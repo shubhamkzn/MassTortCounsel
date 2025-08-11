@@ -1,7 +1,7 @@
 import React from 'react';
-import c1 from '../../../assets/c1.png';
-import c2 from '../../../assets/c2.png';
-import c3 from '../../../assets/c3.png';
+import c1 from '../../../assets/Bag1Purple.png';
+import c2 from '../../../assets/Bag2Purple.png';
+import c3 from '../../../assets/Bag3Purple.png';
 import bgImg from '../../../assets/Rectangle04.png';
 
 
