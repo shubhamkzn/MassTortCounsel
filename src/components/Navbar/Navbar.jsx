@@ -307,7 +307,7 @@ function MobileNavbar() {
           </button>
           <img
       src={logo}
-      alt="BE WITH LAW"
+      alt="Mass Tort Counsel"
       className="h-[30px] w-auto"
     />
           <span className="w-8"></span> 
@@ -455,7 +455,7 @@ export default Navbar;
 //           >
 //             &times;
 //           </button>
-//           <span className="text-[#4F2270] text-lg font-bold mx-auto">BE WITH LAW</span>
+//           <span className="text-[#4F2270] text-lg font-bold mx-auto">Mass Tort Counsel</span>
 //           <span className="w-8"></span>
 //         </div>
         
