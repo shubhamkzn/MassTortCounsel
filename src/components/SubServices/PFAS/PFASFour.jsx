@@ -55,7 +55,7 @@ const PFASFour = () => {
             <span className="text-[#4F2270] text-[35px] font-semibold leading-normal capitalize overflow-hidden text-ellipsis">
               Overview of the{" "}
             </span>
-            <span className="text-[#EDC14A] text-[35px] font-semibold leading-normal capitalize overflow-hidden text-ellipsis">
+            <span className="text-[#FDBA22] text-[35px] font-semibold leading-normal capitalize overflow-hidden text-ellipsis">
               PFAS Lawsuit
             </span>
           </h2>
@@ -137,7 +137,7 @@ const PFASFour = () => {
             Overview of the{" "}
           </span>
 
-          <span className="text-[#EDC14A] text-[24px] sm:text-[28px] font-semibold leading-[1.2] capitalize">
+          <span className="text-[#FDBA22] text-[24px] sm:text-[28px] font-semibold leading-[1.2] capitalize">
             PFAS Lawsuit
           </span>
         </h2>

@@ -6,7 +6,7 @@ const eligibilityCards = [
     number: "01",
     text: (
       <>
-        You worked as a<span className="text-[#EDC14A]"> firefighter </span>, military member, airport worker, or in industrial fire safety
+        You worked as a<span className="text-[#FDBA22]"> firefighter </span>, military member, airport worker, or in industrial fire safety
       </>
     ),
     bg: "bg-[#FDF9ED]",
@@ -15,7 +15,7 @@ const eligibilityCards = [
     number: "02",
     text: (
       <>
-        You were<span className="text-[#EDC14A]"> regularly exposed to AFFF </span>during training or fire suppression
+        You were<span className="text-[#FDBA22]"> regularly exposed to AFFF </span>during training or fire suppression
                
       </>
     ),
@@ -25,7 +25,7 @@ const eligibilityCards = [
     number: "03",
     text: (
       <>
-      You were<span className="text-[#EDC14A]"> diagnosed with one of the cancers </span>or illnesses above
+      You were<span className="text-[#FDBA22]"> diagnosed with one of the cancers </span>or illnesses above
        
       </>
     ),
@@ -35,7 +35,7 @@ const eligibilityCards = [
     number: "04",
     text: (
       <>
-        Your diagnosis<span className="text-[#EDC14A]"> occurred within a reasonable period </span>after PFAS exposure
+        Your diagnosis<span className="text-[#FDBA22]"> occurred within a reasonable period </span>after PFAS exposure
        
       </>
      
@@ -46,7 +46,7 @@ const eligibilityCards = [
     number: "05",
     text: (
       <>
-        You are within<span className="text-[#EDC14A]"> your state’s legal timeframe </span>to file
+        You are within<span className="text-[#FDBA22]"> your state’s legal timeframe </span>to file
       </>
      
     ),
@@ -76,13 +76,13 @@ export default function EligibilityCriteria() {
           {/* Text Block (First Cell) - Sized like a card but without background */}
           <div className="flex flex-col justify-center px-6 xl:px-8 py-6 xl:py-8 h-[140px] xl:h-[160px]">
             <h2 className="text-[#4F2270] text-[28px] xl:text-[32px] font-semibold capitalize leading-tight mb-2">
-              You may<span className="text-[#EDC14A]"> qualify to file </span>a lawsuit if you
+              You may<span className="text-[#FDBA22]"> qualify to file </span>a lawsuit if you
             </h2>
             <p className="text-[#757575] text-[13px] xl:text-[14px] font-medium leading-[20px] xl:leading-[22px]">
   Unsure?{' '}
   <a
     href="#contact-form"
-    className="text-[#EDC14A] hover:text-[#d4a841] transition-colors duration-200 underline"
+    className="text-[#FDBA22] hover:text-[#d4a841] transition-colors duration-200 underline"
   >
     Submit the form
   </a>
@@ -133,7 +133,7 @@ export default function EligibilityCriteria() {
   Unsure?{' '}
   <a
     href="#contact-form"
-    className="text-[#EDC14A] hover:text-[#d4a841] transition-colors duration-200 underline"
+    className="text-[#FDBA22] hover:text-[#d4a841] transition-colors duration-200 underline"
   >
     Submit the form
   </a>
@@ -169,7 +169,7 @@ export default function EligibilityCriteria() {
   Unsure?{' '}
   <a
     href="#contact-form"
-    className="text-[#EDC14A] hover:text-[#d4a841] transition-colors duration-200 underline"
+    className="text-[#FDBA22] hover:text-[#d4a841] transition-colors duration-200 underline"
   >
     Submit the form
   </a>

@@ -58,7 +58,7 @@ const ParaquatLawsuitOverview = () => {
             <span className="text-[#4F2270] text-[35px] font-semibold leading-normal capitalize overflow-hidden text-ellipsis">
               Overview of the{' '}
             </span>
-            <span className="text-[#EDC14A] text-[35px] font-semibold leading-normal capitalize overflow-hidden text-ellipsis">
+            <span className="text-[#FDBA22] text-[35px] font-semibold leading-normal capitalize overflow-hidden text-ellipsis">
               Toxic Baby Food Lawsuit 
             </span>
           </h2>
@@ -107,7 +107,7 @@ Legal claims allege these manufacturers failed to warn parents and allowed dange
             Overview of the{' '}
           </span>
          
-          <span className="text-[#EDC14A] text-[30px] sm:text-[36px] font-semibold leading-[1.2] capitalize">
+          <span className="text-[#FDBA22] text-[30px] sm:text-[36px] font-semibold leading-[1.2] capitalize">
             Toxic Baby Food Lawsuit 
           </span>
         </h2>

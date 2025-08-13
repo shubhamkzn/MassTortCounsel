@@ -7,7 +7,7 @@ const cards = [
         number: "01",
         text: (
           <>
-            <span className="text-[#EDC14A]">Mesh erosion</span>{" "}
+            <span className="text-[#FDBA22]">Mesh erosion</span>{" "}
             through vaginal walls
           </>
         ),
@@ -16,7 +16,7 @@ const cards = [
         number: "02",
         text: (
           <>
-            <span className="text-[#EDC14A]">Internal bleeding</span> and
+            <span className="text-[#FDBA22]">Internal bleeding</span> and
             infections
           </>
         ),
@@ -25,7 +25,7 @@ const cards = [
         number: "03",
         text: (
           <>
-            <span className="text-[#EDC14A]">Organ</span> perforation
+            <span className="text-[#FDBA22]">Organ</span> perforation
           </>
         ),
       },
@@ -33,7 +33,7 @@ const cards = [
         number: "04",
         text: (
           <>
-            <span className="text-[#EDC14A]">Pain during sex</span> or daily
+            <span className="text-[#FDBA22]">Pain during sex</span> or daily
             movement
           </>
         ),
@@ -43,7 +43,7 @@ const cards = [
         text: (
           <>
             Multiple surgeries for{" "}
-            <span className="text-[#EDC14A]">mesh removal or replacement</span>
+            <span className="text-[#FDBA22]">mesh removal or replacement</span>
           </>
         ),
         spanFull: true,
@@ -75,7 +75,7 @@ const TransvaginalFour = () => {
             <span className="text-[#4F2270] text-[35px] font-semibold leading-normal capitalize overflow-hidden text-ellipsis">
               Overview of the{" "}
             </span>
-            <span className="text-[#EDC14A] text-[35px] font-semibold leading-normal capitalize overflow-hidden text-ellipsis">
+            <span className="text-[#FDBA22] text-[35px] font-semibold leading-normal capitalize overflow-hidden text-ellipsis">
               Transvaginal Mesh Lawsuit
             </span>
           </h2>
@@ -118,7 +118,7 @@ const TransvaginalFour = () => {
         number: "01",
         text: (
           <>
-            <span className="text-[#EDC14A]">Mesh erosion</span> through vaginal walls
+            <span className="text-[#FDBA22]">Mesh erosion</span> through vaginal walls
           </>
         ),
       },
@@ -126,7 +126,7 @@ const TransvaginalFour = () => {
         number: "02",
         text: (
           <>
-            <span className="text-[#EDC14A]">Internal bleeding</span> and infections
+            <span className="text-[#FDBA22]">Internal bleeding</span> and infections
           </>
         ),
       },
@@ -134,7 +134,7 @@ const TransvaginalFour = () => {
         number: "03",
         text: (
           <>
-            <span className="text-[#EDC14A]">Organ</span> perforation
+            <span className="text-[#FDBA22]">Organ</span> perforation
           </>
         ),
       },
@@ -142,7 +142,7 @@ const TransvaginalFour = () => {
         number: "04",
         text: (
           <>
-            <span className="text-[#EDC14A]">Pain during sex</span> or daily movement
+            <span className="text-[#FDBA22]">Pain during sex</span> or daily movement
           </>
         ),
       },
@@ -151,7 +151,7 @@ const TransvaginalFour = () => {
         text: (
           <>
             Multiple surgeries for{" "}
-            <span className="text-[#EDC14A]">mesh removal or replacement</span>
+            <span className="text-[#FDBA22]">mesh removal or replacement</span>
           </>
         ),
         spanFull: true,
@@ -187,7 +187,7 @@ const TransvaginalFour = () => {
             Overview of the{" "}
           </span>
 
-          <span className="text-[#EDC14A] text-[24px] sm:text-[28px] font-semibold leading-[1.2] capitalize">
+          <span className="text-[#FDBA22] text-[24px] sm:text-[28px] font-semibold leading-[1.2] capitalize">
             Transvaginal Mesh Lawsuit
           </span>
         </h2>

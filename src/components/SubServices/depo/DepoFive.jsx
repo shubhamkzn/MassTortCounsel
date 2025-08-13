@@ -7,7 +7,7 @@ const eligibilityCards = [
     text: (
       <>
         Used Depo-Provera For{" "}
-        <span className="text-[#EDC14A]">6 Months Or Longer</span>
+        <span className="text-[#FDBA22]">6 Months Or Longer</span>
       </>
     ),
     bg: "bg-[#FDF9ED]",
@@ -16,7 +16,7 @@ const eligibilityCards = [
     number: "02",
     text: (
       <>
-        <span className="text-[#EDC14A]">Were Diagnosed</span> With Meningioma,
+        <span className="text-[#FDBA22]">Were Diagnosed</span> With Meningioma,
         <br /> Pseudotumor Cerebri, Or Severe Bone Loss
       </>
     ),
@@ -26,7 +26,7 @@ const eligibilityCards = [
     number: "03",
     text: (
       <>
-        <span className="text-[#EDC14A]">Symptoms</span> Like Vision Problems,
+        <span className="text-[#FDBA22]">Symptoms</span> Like Vision Problems,
         <br /> Severe Headaches, Or Balance Issues
       </>
     ),
@@ -36,7 +36,7 @@ const eligibilityCards = [
     number: "04",
     text: (
       <>
-        Are Still <span className="text-[#EDC14A]">Within Your State's</span>{" "}
+        Are Still <span className="text-[#FDBA22]">Within Your State's</span>{" "}
         Statute Of Limitations
       </>
     ),
@@ -67,13 +67,13 @@ export default function EligibilityCriteria() {
      <div className="hidden lg:grid max-w-[1200px] mx-auto grid-cols-[420px_auto] xl:grid-cols-[450px_auto] gap-x-[48px] xl:gap-x-[60px] gap-y-12 px-4 lg:px-6 items-center">
         <div className="max-w-[405px] flex flex-col justify-center">
           <h2 className="text-[#4F2270] text-[32px] xl:text-[40px] font-semibold capitalize leading-[1.2]">
-            You May <span className="text-[#EDC14A]">Qualify<br></br> To File </span><span className="text-[#4F2270]">A Lawsuit<br /> If You...!</span>
+            You May <span className="text-[#FDBA22]">Qualify<br></br> To File </span><span className="text-[#4F2270]">A Lawsuit<br /> If You...!</span>
           </h2>
           <p className="text-[#757575] text-[13px] xl:text-[14px] font-medium leading-[20px] xl:leading-[22px]">
   Unsure?{' '}
   <a
     href="#contact-form"
-    className="text-[#EDC14A] hover:text-[#d4a841] transition-colors duration-200 underline"
+    className="text-[#FDBA22] hover:text-[#d4a841] transition-colors duration-200 underline"
   >
     Submit the form
   </a>
@@ -103,7 +103,7 @@ export default function EligibilityCriteria() {
       <div className="hidden md:flex lg:hidden max-w-[1200px] mx-auto flex-col items-center gap-6 px-4 py-2 md:gap-6 xl:gap-8">
         <div className="w-full text-center -mt-8">
           <h2 className="text-[#4F2270] text-[28px] lg:text-[32px] font-semibold capitalize leading-normal">
-            You May <span className="text-[#EDC14A]">Qualify To File </span>
+            You May <span className="text-[#FDBA22]">Qualify To File </span>
             <br />
             <span className="text-[#4F2270]">A Lawsuit If You...!</span>
           </h2>
@@ -111,7 +111,7 @@ export default function EligibilityCriteria() {
             Unsure?{" "}
             <a
               href="#contact-form"
-              className="text-[#EDC14A] hover:text-[#d4a841] transition-colors duration-200 underline"
+              className="text-[#FDBA22] hover:text-[#d4a841] transition-colors duration-200 underline"
             >
               Submit the form
             </a>{" "}
@@ -139,15 +139,15 @@ export default function EligibilityCriteria() {
       {/* ✅ Mobile Layout (below md) */}
       <div className="md:hidden flex flex-col  gap-6 px-4">
         <h2 className="text-[#4F2270] text-[30px] font-semibold capitalize leading-snug text-left">
-          You May <span className="text-[#EDC14A]">Qualify</span>{" "}
-          <span className="text-[#EDC14A]">To</span>{" "}
-          <span className="text-[#EDC14A]">File</span> A Lawsuit If You
+          You May <span className="text-[#FDBA22]">Qualify</span>{" "}
+          <span className="text-[#FDBA22]">To</span>{" "}
+          <span className="text-[#FDBA22]">File</span> A Lawsuit If You
         </h2>
           <p className="text-[#757575] text-[13px] xl:text-[14px] font-medium leading-[20px] xl:leading-[22px]">
             Unsure?{" "}
             <a
               href="#contact-form"
-              className="text-[#EDC14A] hover:text-[#d4a841] transition-colors duration-200 underline"
+              className="text-[#FDBA22] hover:text-[#d4a841] transition-colors duration-200 underline"
             >
               Submit the form
             </a>{" "}

@@ -1,6 +1,6 @@
 import React from 'react'
 import imgR from '../../assets/NewServiceMainImg2.png'
-import MobileHeroBg from '../../assets/serMob1.png'
+import MobileHeroBg from '../../assets/serMob2.png'
 // import GradientMobileHero from '../../assets/ServiceGradientMobileHero.png'
 const ServiceOne = () => {
   return (
@@ -70,41 +70,49 @@ const ServiceOne = () => {
         />
       </section>
  
-   {/* Mobile Hero Section */}
-<section className="bg-[#4F2270] flex sm:hidden relative w-full items-start justify-center overflow-hidden">
-  
-  {/* Background Image */}
-  <img
-    src={MobileHeroBg}
-    alt="Hero Background"
-    className="w-full h-auto object-cover" // ✅ Keeps aspect ratio
-  />
-
-  {/* Overlay (optional for darkening image) */}
-  <div className="absolute inset-0" />
-
-  {/* Hero Text Content */}
-  <div className="absolute top-0 left-0 z-20 flex flex-col items-start w-full px-4 pt-[50px]">
-    <h1
-      className="text-white mb-4 text-left capitalize text-[25px] min-[350px]:text-[28px] leading-normal max-w-[358px] font-[Quicksand] font-bold"
-    >
-      Explore Active Lawsuits<br />
-      And Claim <span className='text-[#FDBA22]'> Your Rights</span> 
-    </h1>
-
-    <h2
-      className="text-white text-left capitalize text-[12px] min-[350px]:text-[14px] leading-[23px] tracking-[-0.15px] max-w-[358px] font-[Quicksand] font-medium"
-    >
-      Discover legal actions against companies that endangered lives. If you were harmed by a drug, toxic exposure, or defective product, you may be eligible for a settlement. Click to learn more and connect with attorneys – at no cost to you.
-    </h2>
-  </div>
-</section>
-
+      {/* Mobile Hero Section */}
+      <section className="bg-[#4F2270] flex sm:hidden relative w-full h-[654px] items-start justify-center overflow-hidden">
+      {/* Background Image Gradient */}
+      {/* <img
+        src={GradientMobileHero}
+        alt="Gradient Mobile Hero"
+        className="absolute inset-0 w-full h-full object-cover z-10"
+      /> */}
+ 
+      {/* Foreground Image */}
+      <img
+        src={MobileHeroBg}
+        alt="Hero Background"
+        className="absolute inset-0 w-full h-full object-cover z-0"
+      />
+ 
+      {/* Transparent overlay for readability */}
+      <div className="absolute inset-0  opacity-20 z-10" />
+ 
+      {/* Hero Text Content */}
+      <div className="relative z-20 flex flex-col items-start w-full px-4 pt-[50px]">
+        <h1
+          className="text-white mb-4 text-left capitalize text-[25px] min-[350px]:text-[28px] leading-normal max-w-[358px] font-[Quicksand] font-bold"
+        >
+          Explore Active Lawsuits<br />
+          And Claim Your Rights
+        </h1>
+ 
+        <h2
+          className="text-white text-left capitalize text-[12px] min-[350px]:text-[14px] leading-[23px] tracking-[-0.15px] max-w-[358px] font-[Quicksand] font-medium"
+        >
+          Discover legal actions against companies that endangered lives. If you were harmed by a drug, toxic exposure, or defective product, you may be eligible for a settlement. Click to learn more and connect with attorneys – at no cost to you.
+        </h2>
+      </div>
+    </section>
+   
    
     </>
   )
 }
  
 export default ServiceOne
-
-
+ 
+ 
+ 
+ 

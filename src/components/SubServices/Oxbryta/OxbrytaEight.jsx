@@ -45,7 +45,7 @@ const HomeEight = () => {
         className="text-[32px] sm:text-[40px] font-semibold text-[#4F2270] mb-6 capitalize leading-none"
       >
         Frequently Asked{' '}
-        <span className="text-[#EDC14A] font-semibold capitalize">
+        <span className="text-[#FDBA22] font-semibold capitalize">
           Questions
         </span>
       </h2>
@@ -68,7 +68,7 @@ const HomeEight = () => {
 <span className="text-[18px] font-light select-none">
                 <ChevronDown
                   className={`w-5 h-5 transform transition-transform duration-300 
-      ${activeIndex === idx ? "rotate-180 text-[#EDC14A]" : "text-[#4F2270]"}`}
+      ${activeIndex === idx ? "rotate-180 text-[#FDBA22]" : "text-[#4F2270]"}`}
                 />
               </span>
             </button>

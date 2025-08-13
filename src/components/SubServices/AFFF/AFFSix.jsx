@@ -28,7 +28,7 @@ export default function Compensation() {
           <div className="w-1/2 flex items-center justify-start px-4 md:px-6 lg:px-10 py-4">
             <div className="max-w-[600px] w-full">
               <h2 className="font-medium capitalize leading-snug text-[22px] md:text-[22px] lg:text-[30px] xl:text-[35px] text-white mb-4 ">
-                What <span className="text-[#EDC14A]">Settlement</span> May Cover
+                What <span className="text-[#FDBA22]">Settlement</span> May Cover
                 
               </h2>
               <ul className="list-disc pl-12 text-[10px] md:text-[12px] lg:text-[16px] xl:text-[18px] space-y-2 leading-relaxed text-white ">
@@ -56,7 +56,7 @@ export default function Compensation() {
           {/* Text */}
           <div className="w-full text-white pt-4">
             <h2 className="text-[24px] min-[350px]:text-[28px] min-[400px]:text-[32px] sm:text-[28px] font-medium capitalize mb-3 leading-tight text-left">
-              What <span className="text-[#EDC14A]"> Settlement </span> May Cover
+              What <span className="text-[#FDBA22]"> Settlement </span> May Cover
             </h2>
             <ul className="list-disc pl-5 text-[14px] min-[350px]:text-[16px] min-[400px]:text-[17px] sm:text-[16px] font-medium leading-[28px] min-[400px]:leading-[30px] sm:leading-[32px] capitalize space-y-2 pb-6">
               <li>Cancer-related medical expenses</li>

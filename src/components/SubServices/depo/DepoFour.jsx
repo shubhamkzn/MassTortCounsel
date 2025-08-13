@@ -71,7 +71,7 @@ const LawsuitOverview = () => {
         >
           <h2 className="text-[#4F2270] text-[16px] md:text-[25px] lg:text-[22px] xl:text-[35px] font-semibold leading-[110%] capitalize mb-2 md:mb-3 lg:mb-4 text-left">
             Overview of the
-            <span className="text-[#EDC14A]"> Depo-Provera <br />Brain Tumor{' '}Lawsuit</span>
+            <span className="text-[#FDBA22]"> Depo-Provera <br />Brain Tumor{' '}Lawsuit</span>
           </h2>
           <p className="text-[#757575] text-[10px] md:text-[11px] lg:text-[12px] xl:text-[18px] font-medium leading-[140%] mb-2 md:mb-3 lg:mb-4 xl:mb-6 text-left">
             Depo-Provera (medroxyprogesterone acetate) is an injectable birth
@@ -99,7 +99,7 @@ const LawsuitOverview = () => {
         >
           <h3 className="text-[#4F2270] text-[16px] md:text-[25px] lg:text-[22px] xl:text-[35px] font-semibold leading-[110%] capitalize mb-2 md:mb-3 lg:mb-4 text-left">
             Lawsuits allege that Pfizer failed
-            to <span className="text-[#EDC14A]">properly warn</span> women about
+            to <span className="text-[#FDBA22]">properly warn</span> women about
           </h3>
           <p className="text-[#757575] text-[10px] md:text-[11px] lg:text-[12px] xl:text-[18px] font-medium leading-[140%] mb-2 md:mb-3 lg:mb-4 xl:mb-6 text-left">
             Lawsuits allege that Pfizer failed to properly warn women about
@@ -129,7 +129,7 @@ const LawsuitOverview = () => {
           min-[420px]:text-[30px]
         ">
           Overview of 
-          <span className="text-[#EDC14A]"> Depo-Provera<br />Brain Tumor{' '} Lawsuit</span>
+          <span className="text-[#FDBA22]"> Depo-Provera<br />Brain Tumor{' '} Lawsuit</span>
         </h2>
         </div>
         <div className="md:hidden flex flex-col w-full gap-6 px-4">
@@ -149,7 +149,7 @@ const LawsuitOverview = () => {
            min-[420px]:text-[30px]
         ">
           Lawsuits allege that Pfizer failed to{' '}
-          <span className="text-[#EDC14A]">
+          <span className="text-[#FDBA22]">
             properly warn{' '}
           </span>Women about
         </h2>

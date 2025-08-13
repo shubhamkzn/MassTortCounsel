@@ -111,7 +111,7 @@ export default function HomeFive() {
               />
             </div>
             <h2 className="text-[28px] lg:text-[36px] xl:text-[40px] font-semibold text-[#4F2270] leading-snug mb-4">
-              Experienced <span className="text-[#EDC14A]">Legal Teams</span>
+              Experienced <span className="text-[#FDBA22]">Legal Teams</span>
               <br />
               <span>Who Work For You</span>
             </h2>
@@ -136,7 +136,7 @@ export default function HomeFive() {
             </div>
             <h2 className="text-[24px] min-[350px]:text-[26px] sm:text-[28px] font-semibold text-[#4F2270] leading-snug mb-2">
               Experienced{" "}
-              <span className="text-[#EDC14A]">Legal Teams</span>
+              <span className="text-[#FDBA22]">Legal Teams</span>
               <br />
               <span>Who Work For You</span>
             </h2>

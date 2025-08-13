@@ -72,7 +72,7 @@ export default function EligibilityCriteria() {
       xl:w-[394px] xl:h-[144px]
       2xl:w-[473px] 2xl:h-[173px]">
       <h2 className="text-[#4F2270] text-[35px] xl:text-[45px] 2xl:text-[45px] font-semibold capitalize leading-tight mb-2">
-        Who We<span className="text-[#EDC14A]"> Help</span>
+        Who We<span className="text-[#FDBA22]"> Help</span>
       </h2>
       <p className="text-[#757575] text-[11px] xl:text-[14px] 2xl:text-[17px] font-medium leading-[18px] xl:leading-[22px] 2xl:leading-[26px]">
         We assist individuals & families affected by:     
@@ -92,7 +92,7 @@ export default function EligibilityCriteria() {
       >
         <span className={`font-[Quicksand] font-normal leading-none 
           text-[25px] xl:text-[35px] 2xl:text-[42px]
-          ${index % 2 === 0 ? 'text-[#EDC14A]' : 'text-[#4F2270]'}`}>
+          ${index % 2 === 0 ? 'text-[#FDBA22]' : 'text-[#4F2270]'}`}>
           {card.number}
         </span>
         <p className="text-[#4F2270] font-medium tracking-[-0.32px] capitalize text-left
@@ -110,7 +110,7 @@ export default function EligibilityCriteria() {
 <div className="hidden md:flex lg:hidden max-w-[1200px] mx-auto flex-col items-center gap-6 px-4 py-2 md:gap-6 xl:gap-8">
   <div className="w-full text-center -mt-8">
     <h2 className="text-[#4F2270] text-[28px] lg:text-[32px] font-semibold capitalize leading-normal">
-      Who We<span className="text-[#EDC14A]"> Help</span>
+      Who We<span className="text-[#FDBA22]"> Help</span>
     </h2>
 
     <p className="text-[#757575] text-[14px] lg:text-[14px] font-medium text-center mt-4 leading-[22px] lg:leading-[24px]">
@@ -122,7 +122,7 @@ export default function EligibilityCriteria() {
     {eligibilityCards.map((card, index) => {
       // Cards 1 and 4 get one color, cards 2 and 3 get another
       const cardBg = (index === 0 || index === 3) ? 'bg-[#FDF9ED]' : 'bg-[#F3F4F9]';
-      const numberColor = (index === 0 || index === 3) ? 'text-[#EDC14A]' : 'text-[#4F2270]';
+      const numberColor = (index === 0 || index === 3) ? 'text-[#FDBA22]' : 'text-[#4F2270]';
       
       return (
         <article
@@ -144,7 +144,7 @@ export default function EligibilityCriteria() {
       {/* Mobile Layout (below md) */}
 <div className="md:hidden flex flex-col items-center justify-center gap-6 px-4">
   <h2 className="text-[#4F2270] text-[35px] font-semibold capitalize leading-[10px] text-left w-full">
-    Who We<span className="text-[#EDC14A]"> Help</span>
+    Who We<span className="text-[#FDBA22]"> Help</span>
   </h2>
   <p className="text-[#757575] text-[16px] font-medium text-left leading-[22px] w-full">
     We assist individuals & families affected by:
@@ -153,7 +153,7 @@ export default function EligibilityCriteria() {
   <div className="grid grid-cols-2 gap-4">
     {mobileEligibilityCards.map((card, index) => {
       // Alternating number colors based on index
-      const numberColor = index % 2 === 0 ? 'text-[#EDC14A]' : 'text-[#4F2270]';
+      const numberColor = index % 2 === 0 ? 'text-[#FDBA22]' : 'text-[#4F2270]';
       
       return (
         <article

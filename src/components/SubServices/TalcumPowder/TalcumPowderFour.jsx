@@ -58,14 +58,14 @@ const ParaquatLawsuitOverview = () => {
             <span className="text-[#4F2270] text-[35px] font-semibold leading-normal capitalize overflow-hidden text-ellipsis">
               Overview of the{' '}
             </span>
-            <span className="text-[#EDC14A] text-[35px] font-semibold leading-normal capitalize overflow-hidden text-ellipsis">
+            <span className="text-[#FDBA22] text-[35px] font-semibold leading-normal capitalize overflow-hidden text-ellipsis">
                Talcum Powder Lawsuit 
             </span>
           </h2>
  
           {/* Description Text */}
           <p className="text-[#757575] text-[18px] font-medium leading-normal mb-8 max-w-[1200px]">
-          Thousands of women have filed lawsuits against <span className="text-[#EDC14A]">Johnson & Johnson </span> and other companies, claiming that long-term use of <span className="text-[#EDC14A]">talc-based powders </span>in the genital area caused them to develop <span className="text-[#EDC14A]">ovarian cancer.</span> <br></br><br></br>
+          Thousands of women have filed lawsuits against <span className="text-[#FDBA22]">Johnson & Johnson </span> and other companies, claiming that long-term use of <span className="text-[#FDBA22]">talc-based powders </span>in the genital area caused them to develop <span className="text-[#FDBA22]">ovarian cancer.</span> <br></br><br></br>
 
 Many juries have awarded multi-million dollar verdicts to affected women, while others are pursuing claims through mass tort litigation. 
           </p>
@@ -105,14 +105,14 @@ Many juries have awarded multi-million dollar verdicts to affected women, while 
             Overview of the{' '}
           </span>
          
-          <span className="text-[#EDC14A] text-[24px] sm:text-[28px] font-semibold leading-[1.2] capitalize">
+          <span className="text-[#FDBA22] text-[24px] sm:text-[28px] font-semibold leading-[1.2] capitalize">
             Talcum Powder Lawsuit
           </span>
         </h2>
  
         {/* Mobile Description */}
         <p className="text-[#757575] text-[16px] font-medium leading-normal text-left">
-           Thousands of women have filed lawsuits against <span className="text-[#EDC14A]">Johnson & Johnson </span> and other companies, claiming that long-term use of <span className="text-[#EDC14A]">talc-based powders </span>in the genital area caused them to develop <span className="text-[#EDC14A]">ovarian cancer.</span> <br></br><br></br>
+           Thousands of women have filed lawsuits against <span className="text-[#FDBA22]">Johnson & Johnson </span> and other companies, claiming that long-term use of <span className="text-[#FDBA22]">talc-based powders </span>in the genital area caused them to develop <span className="text-[#FDBA22]">ovarian cancer.</span> <br></br><br></br>
 
 Many juries have awarded multi-million dollar verdicts to affected women, while others are pursuing claims through mass tort litigation. 
           </p>

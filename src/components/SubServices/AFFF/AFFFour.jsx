@@ -59,7 +59,7 @@ const AFFFour = () => {
             <span className="text-[#4F2270] text-[35px] font-semibold leading-normal capitalize overflow-hidden text-ellipsis">
               Overview of the{" "}
             </span>
-            <span className="text-[#EDC14A] text-[35px] font-semibold leading-normal capitalize overflow-hidden text-ellipsis">
+            <span className="text-[#FDBA22] text-[35px] font-semibold leading-normal capitalize overflow-hidden text-ellipsis">
               AFFF Lawsuit
             </span>
           </h2>
@@ -118,7 +118,7 @@ const AFFFour = () => {
             Overview of the{" "}
           </span>
  
-          <span className="text-[#EDC14A] text-[30px] sm:text-[30px] font-semibold leading-[1.2] capitalize">
+          <span className="text-[#FDBA22] text-[30px] sm:text-[30px] font-semibold leading-[1.2] capitalize">
             AFF Lawsuit
           </span>
         </h2>

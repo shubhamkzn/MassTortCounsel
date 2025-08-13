@@ -57,7 +57,7 @@ const AboutFive = () => {
                 2xl:text-[44px]
                 min-[3840px]:text-[48px]
                 font-[Quicksand] font-bold leading-normal capitalize">
-                <span className="text-[#4F2270]">Our </span><span className="text-[#EDC14A]">Network</span>
+                <span className="text-[#4F2270]">Our </span><span className="text-[#FDBA22]">Network</span>
               </h1>
              
               {/* Subtext */}
@@ -69,7 +69,7 @@ const AboutFive = () => {
               2xl:text-[20px] 2xl:leading-[27px]
               min-[3840px]:text-[22px] min-[3840px]:leading-[30px]
               font-[Quicksand] font-medium">
-  BeWithLaw partners with vetted law firms that focus on mass torts and personal injury cases across the United States. These firms work on a contingency basis, meaning you pay nothing unless compensation is awarded.
+  Mass Tort Counsel partners with vetted law firms that focus on mass torts and personal injury cases across the United States. These firms work on a contingency basis, meaning you pay nothing unless compensation is awarded.
 </p>
 
             </div>
@@ -90,11 +90,11 @@ const AboutFive = () => {
         {/* Text Content */}
         <div className="relative z-20 flex flex-col items-start w-full px-4 pt-[97px]">
           <h1 className="text-[#4F2270] mb-4 text-left capitalize text-[32px] leading-[22px] font-[Quicksand] font-bold">
-            Our <span className="text-[#EDC14A]">Network</span>
+            Our <span className="text-[#FDBA22]">Network</span>
           </h1>
 
           <h2 className="text-[#757575] text-left text-[16px] leading-[17px] font-[Quicksand]">
-            BeWithLaw partners with vetted law firms that focus on mass torts and personal injury cases across the United States. These firms work on a contingency basis, meaning you pay nothing unless compensation is awarded.
+            Mass Tort Counsel partners with vetted law firms that focus on mass torts and personal injury cases across the United States. These firms work on a contingency basis, meaning you pay nothing unless compensation is awarded.
           </h2>
         </div>
 

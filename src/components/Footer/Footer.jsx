@@ -56,7 +56,7 @@ const Footer = () => {
   Your <span className="text-yellow-400">Legal Options</span> Today
 </h2>
           <a href="/ContactUs">
-  <button className="bg-[#111111] hover:bg-yellow-600 text-[#4F2270] px-4 py-4 rounded font-bold mt-8 w-full">
+  <button className="bg-[#FDBA22]  hover:bg-yellow-600 text-[#4F2270] px-4 py-4 rounded font-bold mt-8 w-full">
     Book an Appointment
   </button>
 </a>
@@ -161,7 +161,7 @@ const Footer = () => {
               {/* Right */}
               <div className="flex items-center justify-end gap-8">
             <a href="/ContactUs">
-  <button className="bg-[#EDC14A] hover:bg-yellow-600 text-[#4F2270] px-4 py-4 rounded font-bold ">
+  <button className="bg-[#FDBA22]  hover:bg-yellow-600 text-[#4F2270] px-4 py-4 rounded font-bold ">
     Book an Appointment
   </button>
 </a>

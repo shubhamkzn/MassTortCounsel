@@ -551,11 +551,11 @@ const DesktopForm = () => {
             />
             <label htmlFor="termsAccepted" className="text-sm text-gray-700">
               I agree to the{' '}
-              <a href="/PrivacyPolicy" className="text-[#EDC14A] underline" target="_blank" rel="noopener noreferrer">
+              <a href="/PrivacyPolicy" className="text-[#FDBA22] underline" target="_blank" rel="noopener noreferrer">
                 Privacy Policy
               </a>{' '}
               and{' '}
-              <a href="/Disclaimer" className="text-[#EDC14A] underline" target="_blank" rel="noopener noreferrer">
+              <a href="/Disclaimer" className="text-[#FDBA22] underline" target="_blank" rel="noopener noreferrer">
                 Disclaimer
               </a>{' '}
               and give my express written consent, affiliates and/or lawyer to contact you at the number provided above, even if this number is a wireless number or if I am presently listed on a Do Not Call list. I understand that I may be contacted by telephone, email, text message or mail regarding case options and that I may be called using automatic dialing equipment. Message and data rates may apply. My consent does not require purchase. This is Legal advertising.
@@ -572,7 +572,7 @@ const DesktopForm = () => {
                 whiteSpace: 'nowrap',
               }}
             >
-              Start My Case Review<span className="text-[#EDC14A]">{' ->'}</span>
+              Start My Case Review<span className="text-[#FDBA22]">{' ->'}</span>
             </button>
           </div>
         </div>
@@ -904,8 +904,8 @@ const MobileForm = () => {
             style={{ width: '1.5rem', height: '1.5rem' }}
           />
           <label htmlFor="termsAccepted" className="text-xs text-gray-700">
-            I agree to the <a href="/PrivacyPolicy" className="text-[#EDC14A] underline" target="_blank" rel="noopener noreferrer">Privacy Policy</a> and
-            <a href="/Disclaimer" className="text-[#EDC14A] underline ml-1" target="_blank" rel="noopener noreferrer">Disclaimer</a> and give my express written consent to be contacted by affiliates and/or lawyers.
+            I agree to the <a href="/PrivacyPolicy" className="text-[#FDBA22] underline" target="_blank" rel="noopener noreferrer">Privacy Policy</a> and
+            <a href="/Disclaimer" className="text-[#FDBA22] underline ml-1" target="_blank" rel="noopener noreferrer">Disclaimer</a> and give my express written consent to be contacted by affiliates and/or lawyers.
           </label>
         </div>
    

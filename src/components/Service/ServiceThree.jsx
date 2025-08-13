@@ -66,7 +66,7 @@ const ServiceThree = () => {
       <div className="w-full max-w-[1280px] mx-auto">
         <div className="mb-8">
           <h2 className="text-2xl md:text-3xl font-semibold text-[#4F2270]">
-            What Do We <span className="text-[#EDC14A]">Help You</span> With?
+            What Do We <span className="text-[#FDBA22]">Help You</span> With?
           </h2>
         </div>
  

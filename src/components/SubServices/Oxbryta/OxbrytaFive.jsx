@@ -6,7 +6,7 @@ const eligibilityCards = [
     number: "01",
     text: (
       <>
-       You or a family member took Oxbryta <span className="text-[#EDC14A]">  for sickle cell disease </span>
+       You or a family member took Oxbryta <span className="text-[#FDBA22]">  for sickle cell disease </span>
       </>
     ),
     bg: "bg-[#FDF9ED]",
@@ -15,7 +15,7 @@ const eligibilityCards = [
     number: "02",
     text: (
       <>
-        Experienced<span className="text-[#EDC14A]">  liver injury</span>, <span className="text-[#EDC14A]"> stroke</span> Or <span className="text-[#EDC14A]"> Other serious health complications</span> After Use
+        Experienced<span className="text-[#FDBA22]">  liver injury</span>, <span className="text-[#FDBA22]"> stroke</span> Or <span className="text-[#FDBA22]"> Other serious health complications</span> After Use
                
       </>
     ),
@@ -25,7 +25,7 @@ const eligibilityCards = [
     number: "03",
     text: (
       <>
-      Received<span className="text-[#EDC14A]"> Emergency </span> Or <span className="text-[#EDC14A]"> Long Term Medical Care</span>
+      Received<span className="text-[#FDBA22]"> Emergency </span> Or <span className="text-[#FDBA22]"> Long Term Medical Care</span>
        
       </>
     ),
@@ -35,7 +35,7 @@ const eligibilityCards = [
     number: "04",
     text: (
       <>
-        symptoms occurred<span className="text-[#EDC14A]"> While on  </span>Or <span className="text-[#EDC14A]"> shortly after stopping Oxbryta</span>
+        symptoms occurred<span className="text-[#FDBA22]"> While on  </span>Or <span className="text-[#FDBA22]"> shortly after stopping Oxbryta</span>
        
       </>
      
@@ -67,13 +67,13 @@ export default function EligibilityCriteria() {
     {/* Left Half - Heading (43.61% width) */}
     <div className="flex flex-col justify-center w-[43.61%]">
       <h2 className="text-[#4F2270] text-[28px] xl:text-[36px] font-semibold capitalize leading-tight mb-2">
-        Who May Be <span className="text-[#EDC14A]"> Eligible</span>
+        Who May Be <span className="text-[#FDBA22]"> Eligible</span>
       </h2>
       <p className="text-[#757575] text-[15px] xl:text-[18px] leading-[22px] xl:leading-[25px] font-medium">
         Unsure?{' '}
         <a
           href="#contact-form"
-          className="text-[#EDC14A] hover:text-[#d4a841] transition-colors duration-200 underline"
+          className="text-[#FDBA22] hover:text-[#d4a841] transition-colors duration-200 underline"
         >
           Submit the form
         </a>
@@ -104,14 +104,14 @@ export default function EligibilityCriteria() {
       <div className="hidden md:flex lg:hidden max-w-[1200px] mx-auto flex-col items-center gap-6 px-4 py-2 md:gap-6 xl:gap-8">
         <div className="w-full text-center -mt-8">
           <h2 className="text-[#4F2270] text-[28px] lg:text-[32px] font-semibold capitalize leading-normal">
-          Who May Be <span className="text-[#EDC14A]"> Eligible</span>
+          Who May Be <span className="text-[#FDBA22]"> Eligible</span>
           </h2>
  
           <p className="text-[#757575] text-[14px] lg:text-[14px] font-medium text-center mt-4 leading-[22px] lg:leading-[24px]">
   Unsure?{' '}
   <a
     href="#contact-form"
-    className="text-[#EDC14A] hover:text-[#d4a841] transition-colors duration-200 underline"
+    className="text-[#FDBA22] hover:text-[#d4a841] transition-colors duration-200 underline"
   >
     Submit the form
   </a>
@@ -141,13 +141,13 @@ export default function EligibilityCriteria() {
       {/* Mobile Layout (below md) */}
       <div className="md:hidden flex flex-col items-center justify-center gap-6 px-4">
   <h2 className="text-[#4F2270] text-[24px] font-semibold capitalize leading-snug text-left w-full">
-    Who May Be <span className="text-[#EDC14A]"> Eligible</span>
+    Who May Be <span className="text-[#FDBA22]"> Eligible</span>
   </h2>
         <p className="text-[#757575] text-[14px] font-medium text-left leading-[22px]">
   Unsure?{' '}
   <a
     href="#contact-form"
-    className="text-[#EDC14A] hover:text-[#d4a841] transition-colors duration-200 underline"
+    className="text-[#FDBA22] hover:text-[#d4a841] transition-colors duration-200 underline"
   >
     Submit the form
   </a>

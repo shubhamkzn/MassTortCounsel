@@ -6,7 +6,7 @@ const eligibilityCards = [
     number: "01",
     text: (
       <>
-        You regularly used <span className="text-[#EDC14A]"> talc-based powders for personal hygiene </span> 
+        You regularly used <span className="text-[#FDBA22]"> talc-based powders for personal hygiene </span> 
       </>
     ),
     bg: "bg-[#FDF9ED]",
@@ -16,7 +16,7 @@ const eligibilityCards = [
     number: "02",
     text: (
       <>
-        You were later diagnosed with <span className="text-[#EDC14A]"> ovarian cancer </span>
+        You were later diagnosed with <span className="text-[#FDBA22]"> ovarian cancer </span>
                
       </>
     ),
@@ -37,7 +37,7 @@ const eligibilityCards = [
     number: "03",
     text: (
       <>
-        You have <span className="text-[#EDC14A]">medical documentation</span>  of diagnosis  
+        You have <span className="text-[#FDBA22]">medical documentation</span>  of diagnosis  
        
       </>
      
@@ -48,7 +48,7 @@ const eligibilityCards = [
     number: "04",
     text: (
       <>
-        You are stil within your<span className="text-[#EDC14A]"> state’s statute of limitations </span> 
+        You are stil within your<span className="text-[#FDBA22]"> state’s statute of limitations </span> 
        
       </>
      
@@ -79,14 +79,14 @@ export default function EligibilityCriteria() {
           {/* Text Block (First Cell) - Sized like a card but without background */}
           <div className="flex flex-col justify-center px-6 xl:px-8 py-6 xl:py-8 h-[140px] xl:h-[160px]">
             <h2 className="text-[#4F2270] text-[28px] xl:text-[32px] font-semibold capitalize leading-tight mb-2 ">
-              Who May Be <span class="text-[#EDC14A]">Eligible
+              Who May Be <span class="text-[#FDBA22]">Eligible
 </span>
             </h2>
             <p className="text-[#757575] text-[13px] xl:text-[14px] font-medium leading-[20px] xl:leading-[22px]">
   Unsure?{' '} 
   <a
     href="#contact-form"
-    className="text-[#EDC14A] hover:text-[#d4a841] transition-colors duration-200 underline"
+    className="text-[#FDBA22] hover:text-[#d4a841] transition-colors duration-200 underline"
   >
     Submit the form
   </a>
@@ -115,7 +115,7 @@ export default function EligibilityCriteria() {
       <div className="hidden md:flex lg:hidden max-w-[1200px] mx-auto flex-col items-center gap-6 px-4 py-2 md:gap-6 xl:gap-8">
         <div className="w-full text-center -mt-8">
           <h2 className="text-[#4F2270] text-[28px] lg:text-[32px] font-semibold capitalize leading-normal">
-         You may  <span class="text-[#EDC14A]">qualify to file 
+         You may  <span class="text-[#FDBA22]">qualify to file 
 </span> a lawsuit if you
           </h2>
  
@@ -123,7 +123,7 @@ export default function EligibilityCriteria() {
   Unsure?{' '}
   <a
     href="#contact-form"
-    className="text-[#EDC14A] hover:text-[#d4a841] transition-colors duration-200 underline"
+    className="text-[#FDBA22] hover:text-[#d4a841] transition-colors duration-200 underline"
   >
     Submit the form
   </a>
@@ -155,14 +155,14 @@ export default function EligibilityCriteria() {
       {/* Mobile Layout (below md) */}
       <div className="md:hidden flex flex-col items-center justify-center gap-6 px-4">
   <h2 className="text-[#4F2270] text-[24px] font-semibold capitalize leading-snug text-left w-full">
-   Who May Be  <span class="text-[#EDC14A]">Eligible
+   Who May Be  <span class="text-[#FDBA22]">Eligible
 </span>
   </h2>
         <p className="text-[#757575] text-[14px] font-medium text-left leading-[22px]">
   Unsure?{' '}
   <a
     href="#contact-form"
-    className="text-[#EDC14A] hover:text-[#d4a841] transition-colors duration-200 underline"
+    className="text-[#FDBA22] hover:text-[#d4a841] transition-colors duration-200 underline"
   >
     Submit the form
   </a>

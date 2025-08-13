@@ -864,7 +864,7 @@ if (!formData.lastName.trim()) {
               I agree to the{" "}
               <a
                 href="/PrivacyPolicy"
-                className="text-[#EDC14A] underline"
+                className="text-[#FDBA22] underline"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -873,7 +873,7 @@ if (!formData.lastName.trim()) {
               and{" "}
               <a
                 href="/Disclaimer"
-                className="text-[#EDC14A] underline"
+                className="text-[#FDBA22] underline"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -906,7 +906,7 @@ if (!formData.lastName.trim()) {
               }}
             >
               Start My Case Review{" "}
-              <span className="text-[#EDC14A]">{" ->"}</span>
+              <span className="text-[#FDBA22]">{" ->"}</span>
             </button>
           </div>
         </div>
@@ -1501,7 +1501,7 @@ const MobileForm = () => {
             I agree to the{" "}
             <a
               href="/PrivacyPolicy"
-              className="text-[#EDC14A] underline"
+              className="text-[#FDBA22] underline"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -1510,7 +1510,7 @@ const MobileForm = () => {
             and{" "}
             <a
               href="/Disclaimer"
-              className="text-[#EDC14A] underline"
+              className="text-[#FDBA22] underline"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -1540,7 +1540,7 @@ const MobileForm = () => {
               whiteSpace: "nowrap",
             }}
           >
-            Start My Case Review <span className="text-[#EDC14A]">{" ->"}</span>
+            Start My Case Review <span className="text-[#FDBA22]">{" ->"}</span>
           </button>
         </div>
       </form>

@@ -63,25 +63,25 @@ const HomeThree = () => {
       {isDesktop ? (
         <div className="flex justify-between items-center mb-8 flex-wrap gap-4">
           <h2 className="text-2xl md:text-3xl font-semibold text-[#4F2270]">
-            What Do We <span className="text-[#EDC14A]">Help</span> You With <span className="text-[#EDC14A]">?</span>
+            What Do We <span className="text-[#FDBA22]">Help</span> You With <span className="text-[#FDBA22]">?</span>
           </h2>
           <a
             href="/ServiceMain"
             className="text-sm md:text-base font-semibold text-[#4F2270] hover:underline whitespace-nowrap "
            style={{ fontFamily: 'Quicksand, sans-serif' }} >
-            See All Lawsuits <span className="text-[#EDC14A]">{'>'}</span>
+            See All Lawsuits <span className="text-[#FDBA22]">{'>'}</span>
           </a>
         </div>
       ) : (
         <div className="flex justify-between items-center mb-8  gap-4">
           <h2 className="text-2xl md:text-3xl font-semibold text-[#4F2270]">
-            What Do We <span className="text-[#EDC14A]">Help You</span> With?
+            What Do We <span className="text-[#FDBA22]">Help You</span> With?
           </h2>
           <a
             href="/ServiceMain"
             className="text-sm md:text-base font-bold text-[#4F2270] hover:underline whitespace-nowrap"
           style={{ fontFamily: 'Quicksand, sans-serif' }} >
-            See All <span className="text-[#EDC14A]">{'>'}</span>
+            See All <span className="text-[#FDBA22]">{'>'}</span>
           </a>
         </div>
       )}

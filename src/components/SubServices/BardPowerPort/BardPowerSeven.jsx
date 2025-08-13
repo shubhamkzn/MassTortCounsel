@@ -36,7 +36,7 @@ your free case Review!
           </h2>
         <button
   onClick={handleRedirect}
-  className="bg-yellow-400 hover:bg-yellow-500 text-black font-semibold px-8 py-4 rounded-lg text-lg transition-colors duration-200 shadow-lg hover:shadow-xl"
+  className="bg-[#FDBA22] hover:bg-yellow-500 text-[#4F2270]  font-semibold px-8 py-4 rounded-lg text-lg transition-colors duration-200 shadow-lg hover:shadow-xl"
   style={{ fontFamily: 'Quicksand, sans-serif' }}
 >
   Start My Case Review
@@ -89,7 +89,7 @@ your free case Review!
               </h2>
              <button
   onClick={handleRedirect}
-  className="bg-yellow-400 hover:bg-yellow-500 text-black font-semibold px-8 py-4 rounded-lg text-lg transition-colors duration-200 shadow-lg hover:shadow-xl"
+  className="bg-[#FDBA22] hover:bg-yellow-500 text-[#4F2270]  font-semibold px-8 py-4 rounded-lg text-lg transition-colors duration-200 shadow-lg hover:shadow-xl"
   style={{ fontFamily: 'Quicksand, sans-serif' }}
 >
   Start My Case Review
@@ -129,7 +129,7 @@ your free case Review!
             </h2>
            <button
   onClick={handleRedirect}
-  className="bg-yellow-400 hover:bg-yellow-500 text-black font-semibold px-8 py-4 rounded-lg text-lg transition-colors duration-200 shadow-lg hover:shadow-xl"
+  className="bg-[#FDBA22] hover:bg-yellow-500 text-[#4F2270]  font-semibold px-8 py-4 rounded-lg text-lg transition-colors duration-200 shadow-lg hover:shadow-xl"
   style={{ fontFamily: 'Quicksand, sans-serif' }}
 >
   Start My Case Review

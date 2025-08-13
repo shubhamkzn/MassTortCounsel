@@ -7,7 +7,7 @@ const eligibilityCards = [
     text: (
       <>
        You used Roundup for{" "}
-        <span className="text-[#EDC14A]">
+        <span className="text-[#FDBA22]">
 residential, agricultural, or commercial purposes        </span>
       </>
     ),
@@ -18,7 +18,7 @@ residential, agricultural, or commercial purposes        </span>
     text: (
       <>
         You were later diagnosed with
-        <span className="text-[#EDC14A]"> non-Hodgkin’s lymphoma </span>
+        <span className="text-[#FDBA22]"> non-Hodgkin’s lymphoma </span>
       </>
     ),
     bg: "bg-[#F3F4F9]",
@@ -26,7 +26,7 @@ residential, agricultural, or commercial purposes        </span>
   {
     number: "03",
     text: <>You are within the
-        <span className="text-[#EDC14A]"> statute of limitations </span>
+        <span className="text-[#FDBA22]"> statute of limitations </span>
 in your state
     </>,
     bg: "bg-[#F3F4F9]",
@@ -52,14 +52,14 @@ export default function RoundUpFive() {
       <div className="hidden lg:block max-w-[1280px] mx-auto px-6 lg:px-8">
          <div className="flex flex-col justify-center px-0 xl:px-0 py-0 xl:py-0 h-[140px] xl:h-[160px]">
             <h2 className="text-[#4F2270] text-[28px] xl:text-[34px] font-semibold capitalize leading-tight mb-4">
-              You may <span className="text-[#EDC14A]"> qualify to file </span>{" "}
+              You may <span className="text-[#FDBA22]"> qualify to file </span>{" "}
               a lawsuit if you{" "}
             </h2>
             <p className="text-[#757575] text-[13px] xl:text-[14px] font-medium leading-[20px] xl:leading-[22px]">
               Unsure?{" "}
               <a
                 href="#contact-form"
-                className="text-[#EDC14A] hover:text-[#d4a841] transition-colors duration-200 underline"
+                className="text-[#FDBA22] hover:text-[#d4a841] transition-colors duration-200 underline"
               >
                 Submit the form
               </a>{" "}
@@ -107,7 +107,7 @@ export default function RoundUpFive() {
       <div className="hidden md:flex lg:hidden max-w-[1200px] mx-auto flex-col items-center gap-6 px-4 py-2 md:gap-6 xl:gap-8">
         <div className="w-full text-center -mt-8">
           <h2 className="text-[#4F2270] text-[28px] lg:text-[32px] font-semibold capitalize leading-normal">
-            You may <span className="text-[#EDC14A]"> qualify to file </span> a
+            You may <span className="text-[#FDBA22]"> qualify to file </span> a
             lawsuit if you{" "}
           </h2>
 
@@ -115,7 +115,7 @@ export default function RoundUpFive() {
             Unsure?{" "}
             <a
               href="#contact-form"
-              className="text-[#EDC14A] hover:text-[#d4a841] transition-colors duration-200 underline"
+              className="text-[#FDBA22] hover:text-[#d4a841] transition-colors duration-200 underline"
             >
               Submit the form
             </a>{" "}
@@ -143,14 +143,14 @@ export default function RoundUpFive() {
       {/* Mobile Layout (below md) */}
       <div className="md:hidden flex flex-col items-center justify-center gap-6 px-4">
         <h2 className="text-[#4F2270] text-[24px] font-semibold capitalize leading-snug text-left w-full">
-           You may <span className="text-[#EDC14A]"> qualify to file </span>{" "}
+           You may <span className="text-[#FDBA22]"> qualify to file </span>{" "}
               a lawsuit if you{" "}
         </h2>
         <p className="text-[#757575] text-[14px] font-medium text-left leading-[22px]">
           Unsure?{" "}
           <a
             href="#contact-form"
-            className="text-[#EDC14A] hover:text-[#d4a841] transition-colors duration-200 underline"
+            className="text-[#FDBA22] hover:text-[#d4a841] transition-colors duration-200 underline"
           >
             Submit the form
           </a>{" "}

@@ -38,7 +38,7 @@ const AboutOne = () => {
             xl:text-[70px] xl:leading-[56px] xl:max-w-[568px]
             2xl:text-[90px] 2xl:leading-[72px] 2xl:max-w-[680px]
             min-[3840px]:text-[100px] min-[3840px]:leading-[120px] min-[3840px]:max-w-[1136px]">
-            Who <span className="text-[#EDC14A]">We Are</span>
+            Who <span className="text-[#FDBA22]">We Are</span>
           </h1>
           
           {/* Subtitle */}
@@ -49,7 +49,7 @@ const AboutOne = () => {
             xl:text-[16px] xl:leading-[22px] xl:max-w-[650px]
             2xl:text-[20px] 2xl:leading-[25px] 2xl:max-w-[680px]
             min-[3840px]:text-[36px] min-[3840px]:leading-[40px] min-[3840px]:max-w-[1510px]">
-            <span className="text-[#EDC14A] font-bold">BeWithLaw </span>
+            <span className="text-[#FDBA22] font-bold">Mass Tort Counsel </span>
             is a legal support platform dedicated to helping individuals & families navigate complex injury and product-related lawsuits. We connect people harmed by dangerous drugs, medical devices, and toxic exposures with legal teams who understand their pain and are ready to fight for justice.
           </h2>
         </div>
@@ -69,13 +69,13 @@ const AboutOne = () => {
           {/* Mobile Main Heading */}
           <h1 className="text-white mb-4 text-left capitalize font-[Quicksand] font-bold
             text-[32px] leading-normal">
-            Who <span className="text-[#EDC14A]">We Are</span>
+            Who <span className="text-[#FDBA22]">We Are</span>
           </h1>
           
           {/* Mobile Subtitle */}
           <h2 className="text-white text-left font-[Quicksand]
             text-[15px] leading-normal">
-            <span className="text-[#EDC14A] font-bold">BeWithLaw </span>
+            <span className="text-[#FDBA22] font-bold">Mass Tort Counsel </span>
             is a legal support platform dedicated to helping individuals & families navigate complex injury and product-related lawsuits. We connect people harmed by dangerous drugs, medical devices, and toxic exposures with legal teams who understand their pain and are ready to fight for justice.
           </h2>
         </div>

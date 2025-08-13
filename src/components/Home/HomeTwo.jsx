@@ -1003,7 +1003,7 @@ const DesktopForm = () => {
               I agree to the{" "}
               <a
                 href="/PrivacyPolicy"
-                className="text-[#EDC14A] underline"
+                className="text-[#FDBA22] underline"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -1012,7 +1012,7 @@ const DesktopForm = () => {
               and{" "}
               <a
                 href="/Disclaimer"
-                className="text-[#EDC14A] underline"
+                className="text-[#FDBA22] underline"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -1045,7 +1045,7 @@ const DesktopForm = () => {
               }}
             >
               Start My Case Review
-              <span className="text-[#EDC14A]">{" ->"}</span>
+              <span className="text-[#FDBA22]">{" ->"}</span>
             </button>
           </div>
         </div>
@@ -1663,7 +1663,7 @@ const MobileForm = () => {
             I agree to the{" "}
             <a
               href="/PrivacyPolicy"
-              className="text-[#EDC14A] underline"
+              className="text-[#FDBA22] underline"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -1672,7 +1672,7 @@ const MobileForm = () => {
             and{" "}
             <a
               href="/Disclaimer"
-              className="text-[#EDC14A] underline"
+              className="text-[#FDBA22] underline"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -1702,7 +1702,7 @@ const MobileForm = () => {
               whiteSpace: "nowrap",
             }}
           >
-            Start My Case Review <span className="text-[#EDC14A]">{" ->"}</span>
+            Start My Case Review <span className="text-[#FDBA22]">{" ->"}</span>
           </button>
         </div>
       </form>
@@ -2592,11 +2592,11 @@ export default HomeTwo;
 //     />
 //     <label htmlFor="termsAccepted" className="text-sm text-gray-700">
 //       I agree to the{' '}
-//       <a href="/PrivacyPolicy" className="text-[#EDC14A] underline" target="_blank" rel="noopener noreferrer">
+//       <a href="/PrivacyPolicy" className="text-[#FDBA22] underline" target="_blank" rel="noopener noreferrer">
 //         Privacy Policy
 //       </a>{' '}
 //       and{' '}
-//       <a href="/Disclaimer" className="text-[#EDC14A] underline" target="_blank" rel="noopener noreferrer">
+//       <a href="/Disclaimer" className="text-[#FDBA22] underline" target="_blank" rel="noopener noreferrer">
 //         Disclaimer
 //       </a>{' '}
 //       and give my express written consent, affiliates and/or lawyer to contact you at the number provided above, even if this number is a wireless number or if I am presently listed on a Do Not Call list. I understand that I may be contacted by telephone, email, text message or mail regarding case options and that I may be called using automatic dialing equipment. Message and data rates may apply. My consent does not require purchase. This is Legal advertising.
@@ -2613,7 +2613,7 @@ export default HomeTwo;
 //       whiteSpace: 'nowrap',
 //     }}
 //   >
-//     Start My Case Review <span className="text-[#EDC14A]">{' ->'}</span>
+//     Start My Case Review <span className="text-[#FDBA22]">{' ->'}</span>
 //   </button>
 // </div>
 
@@ -3041,7 +3041,7 @@ export default HomeTwo;
 //   I agree to the{' '}
 //   <a
 //     href="/PrivacyPolicy"
-//     className="text-[#EDC14A] underline"
+//     className="text-[#FDBA22] underline"
 //     target="_blank"
 //     rel="noopener noreferrer"
 //   >
@@ -3050,7 +3050,7 @@ export default HomeTwo;
 //   and{' '}
 //   <a
 //     href="/Disclaimer"
-//     className="text-[#EDC14A] underline"
+//     className="text-[#FDBA22] underline"
 //     target="_blank"
 //     rel="noopener noreferrer"
 //   >
@@ -3072,7 +3072,7 @@ export default HomeTwo;
 //               whiteSpace: 'nowrap',
 //             }}
 //           >
-//             Start My Case Review  <span className="text-[#EDC14A]">{' ->'}</span>
+//             Start My Case Review  <span className="text-[#FDBA22]">{' ->'}</span>
 //           </button>
 //         </div>
 //       </form>

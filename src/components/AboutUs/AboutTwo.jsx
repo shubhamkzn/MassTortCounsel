@@ -55,7 +55,7 @@ const AboutTwo = () => {
           min-[2560px]:text-[58px] min-[3840px]:text-[62px]
           leading-snug">
           <span className="text-[#4F2270]">Our </span>
-          <span className="text-[#EDC14A]">Mission</span>
+          <span className="text-[#FDBA22]">Mission</span>
         </h2>
         <p className="font-quicksand font-medium text-[#757575] text-left
           text-[14px] md:text-[16px] lg:text-[18px] xl:text-[20px] 2xl:text-[22px]
@@ -90,7 +90,7 @@ const AboutTwo = () => {
               text-[32px] leading-normal
               font-[Quicksand] font-bold"
           >
-            Our <span className="text-[#EDC14A]">Mission</span>
+            Our <span className="text-[#FDBA22]">Mission</span>
           </h1>
           
           <h2 

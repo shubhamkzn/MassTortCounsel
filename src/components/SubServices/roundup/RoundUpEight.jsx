@@ -44,7 +44,7 @@ const RoundUpEight = () => {
         className="text-[32px] sm:text-[40px] font-medium text-[#4F2270] mb-6 capitalize leading-none"
       >
         Frequently Asked{' '}
-        <span className="text-[#EDC14A] font-medium capitalize">
+        <span className="text-[#FDBA22] font-medium capitalize">
           Questions
         </span>
       </h2>

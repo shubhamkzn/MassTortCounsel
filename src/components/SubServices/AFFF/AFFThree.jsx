@@ -38,8 +38,8 @@ const WhyTrustUs = () => (
           id="why-trust-us-title"
           className="text-[26px] md:text-[28px] lg:text-[32px] xl:text-[36px] 2xl:text-[40px] leading-[36px] md:leading-[40px] lg:leading-[48px] xl:leading-[52px] font-semibold text-[#4F2270] capitalize"
         >
-          Why You <span className="text-[#EDC14A] font-bold">Can</span><br />
-          <span className="text-[#EDC14A] font-bold">Always</span> Trust Us
+          Why You <span className="text-[#FDBA22] font-bold">Can</span><br />
+          <span className="text-[#FDBA22] font-bold">Always</span> Trust Us
         </h2>
       </div>
 
@@ -71,8 +71,8 @@ const WhyTrustUs = () => (
       <h2
         className="text-[34px] leading-[40px] font-semibold text-[#4F2270] text-center pb-8 -mt-6"
       >
-        Why You <span className="text-[#EDC14A] font-bold">Can</span> <br />
-        <span className="text-[#EDC14A] font-bold">Always</span> Trust Us
+        Why You <span className="text-[#FDBA22] font-bold">Can</span> <br />
+        <span className="text-[#FDBA22] font-bold">Always</span> Trust Us
       </h2>
 
       <div className="flex flex-col gap-6 w-full">
@@ -104,8 +104,8 @@ const WhyTrustUs = () => (
         className="text-left md:text-center text-[28px] md:text-[40px] leading-[36px] md:leading-[48px] font-semibold text-[#4F2270] relative"
         style={{ transform: 'translateY(-50px)' }}
       >
-        Why You <span className="text-[#EDC14A] font-bold">Can</span><br />
-        <span className="text-[#EDC14A] font-bold">Always</span> Trust Us
+        Why You <span className="text-[#FDBA22] font-bold">Can</span><br />
+        <span className="text-[#FDBA22] font-bold">Always</span> Trust Us
       </h2>
 
       {/* 2x2 Grid Cards, vertical style */}

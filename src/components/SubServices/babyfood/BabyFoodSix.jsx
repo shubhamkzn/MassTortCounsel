@@ -34,7 +34,7 @@ export default function Compensation() {
           <div className="w-1/2 flex items-center justify-start px-4 md:px-6 lg:px-10 py-6">
             <div className="max-w-[600px] w-full">
               <h2 className="font-semibold capitalize leading-snug text-[25px] md:text-[27px] lg:text-[32px] xl:text-[40px] text-white mb-4">
-                What <span className="text-[#EDC14A]">Settlement</span>
+                What <span className="text-[#FDBA22]">Settlement</span>
                 <span className=" lg:inline"> May Cover</span>
                 {/* <span className="hidden md:inline lg:hidden">
                   <br />May Cover
@@ -63,7 +63,7 @@ export default function Compensation() {
           {/* Text */}
           <div className="w-full text-white pt-4">
             <h2 className="text-[24px] min-[350px]:text-[28px] min-[400px]:text-[32px] sm:text-[28px] font-semibold capitalize mb-3 leading-tight text-left">
-              What <span className="text-[#EDC14A]">Settlement</span> May Cover
+              What <span className="text-[#FDBA22]">Settlement</span> May Cover
             </h2>
             <ul className="list-disc pl-5 text-[14px] min-[350px]:text-[16px] min-[400px]:text-[17px] sm:text-[16px] font-medium leading-[28px] min-[400px]:leading-[30px] sm:leading-[32px] capitalize space-y-2 pb-6">
               {compensationItems.map((item, index) => (

@@ -7,7 +7,7 @@ const eligibilityCards = [
     text: (
       <>
         Had A Bard PowerPort Or Similar
-        <span className="text-[#EDC14A]"> Port Catheter</span> Implanted
+        <span className="text-[#FDBA22]"> Port Catheter</span> Implanted
       </>
     ),
     bg: "bg-[#FDF9ED]",
@@ -17,8 +17,8 @@ const eligibilityCards = [
     text: (
       <>
         Experienced
-        <span className="text-[#EDC14A]"> Infection, Breakage, Migration</span>, Or
-        <span className="text-[#EDC14A]"> Required Revision Surgery</span>
+        <span className="text-[#FDBA22]"> Infection, Breakage, Migration</span>, Or
+        <span className="text-[#FDBA22]"> Required Revision Surgery</span>
       </>
     ),
     bg: "bg-[#F3F4F9]",
@@ -28,8 +28,8 @@ const eligibilityCards = [
     text: (
       <>
         Were
-        <span className="text-[#EDC14A]"> Hospitalized</span> Or
-        <span className="text-[#EDC14A]"> Suffered Long-Term Complications</span>
+        <span className="text-[#FDBA22]"> Hospitalized</span> Or
+        <span className="text-[#FDBA22]"> Suffered Long-Term Complications</span>
       </>
     ),
     bg: "bg-[#F3F4F9]",
@@ -38,7 +38,7 @@ const eligibilityCards = [
     number: "04",
     text: (
       <>
-        <span className="text-[#EDC14A]">Were Not Informed</span> Of The Device’s
+        <span className="text-[#FDBA22]">Were Not Informed</span> Of The Device’s
         Potential Risks At The Time Of Implantation
       </>
     ),
@@ -68,13 +68,13 @@ export default function EligibilityCriteria() {
     {/* Left Half - Heading (43.61% width) */}
     <div className="flex flex-col justify-center w-[43.61%]">
       <h2 className="text-[#4F2270] text-[28px] xl:text-[36px] font-semibold capitalize leading-tight mb-2">
-        Who May Be <span className="text-[#EDC14A]"> Eligible</span>
+        Who May Be <span className="text-[#FDBA22]"> Eligible</span>
       </h2>
       <p className="text-[#757575] text-[15px] xl:text-[18px] leading-[22px] xl:leading-[25px] font-medium">
         Unsure?{' '}
         <a
           href="#contact-form"
-          className="text-[#EDC14A] hover:text-[#d4a841] transition-colors duration-200 underline"
+          className="text-[#FDBA22] hover:text-[#d4a841] transition-colors duration-200 underline"
         >
           Submit the form
         </a>
@@ -105,14 +105,14 @@ export default function EligibilityCriteria() {
       <div className="hidden md:flex lg:hidden max-w-[1200px] mx-auto flex-col items-center gap-6 px-4 py-2 md:gap-6 xl:gap-8">
         <div className="w-full text-center -mt-8">
           <h2 className="text-[#4F2270] text-[28px] lg:text-[32px] font-semibold capitalize leading-normal">
-          Who May Be <span className="text-[#EDC14A]"> Eligible</span>
+          Who May Be <span className="text-[#FDBA22]"> Eligible</span>
           </h2>
  
           <p className="text-[#757575] text-[14px] lg:text-[14px] font-medium text-center mt-4 leading-[22px] lg:leading-[24px]">
   Unsure?{' '}
   <a
     href="#contact-form"
-    className="text-[#EDC14A] hover:text-[#d4a841] transition-colors duration-200 underline"
+    className="text-[#FDBA22] hover:text-[#d4a841] transition-colors duration-200 underline"
   >
     Submit the form
   </a>
@@ -142,13 +142,13 @@ export default function EligibilityCriteria() {
       {/* Mobile Layout (below md) */}
       <div className="md:hidden flex flex-col items-center justify-center gap-6 px-4">
   <h2 className="text-[#4F2270] text-[24px] font-semibold capitalize leading-snug text-left w-full">
-    Who May Be <span className="text-[#EDC14A]"> Eligible</span>
+    Who May Be <span className="text-[#FDBA22]"> Eligible</span>
   </h2>
         <p className="text-[#757575] text-[14px] font-medium text-left leading-[22px]">
   Unsure?{' '}
   <a
     href="#contact-form"
-    className="text-[#EDC14A] hover:text-[#d4a841] transition-colors duration-200 underline"
+    className="text-[#FDBA22] hover:text-[#d4a841] transition-colors duration-200 underline"
   >
     Submit the form
   </a>

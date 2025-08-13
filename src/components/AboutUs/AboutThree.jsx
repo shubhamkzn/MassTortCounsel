@@ -2,7 +2,7 @@ import React from "react";
 
 const cards = [
   {
-    number: <span className="text-[#EDC14A]">01</span>,
+    number: <span className="text-[#FDBA22]">01</span>,
     text: (
       <>
         Educate the public
@@ -23,7 +23,7 @@ const cards = [
     bg: "bg-[#FFFFFF]",
   },
   {
-    number: <span className="text-[#EDC14A]">03</span>,
+    number: <span className="text-[#FDBA22]">03</span>,
     text: (
       <>
         Connect qualified individuals
@@ -55,7 +55,7 @@ const AboutThree = () => {
             <span className="text-white text-[32px] lg:text-[38px] xl:text-[42px] 2xl:text-[46px] font-semibold leading-snug capitalize">
               What{" "}
             </span>
-            <span className="text-[#EDC14A] text-[32px] lg:text-[38px] xl:text-[42px] 2xl:text-[46px] font-semibold leading-snug capitalize">
+            <span className="text-[#FDBA22] text-[32px] lg:text-[38px] xl:text-[42px] 2xl:text-[46px] font-semibold leading-snug capitalize">
               We Do
             </span>
           </h2>
@@ -82,7 +82,7 @@ const AboutThree = () => {
       <div className="md:hidden w-full bg-[#4F2270] px-4 py-10">
         <h2 className="text-left text-[28px] sm:text-[30px] font-semibold leading-[1.2] capitalize mb-6">
           <span className="text-white">What </span>
-          <span className="text-[#EDC14A]">We Do</span>
+          <span className="text-[#FDBA22]">We Do</span>
         </h2>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">

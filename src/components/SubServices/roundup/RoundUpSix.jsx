@@ -28,7 +28,7 @@ export default function RoundUpSix() {
           <div className="w-1/2 flex items-center justify-start px-4 md:px-6 lg:px-10 py-6">
             <div className="max-w-[600px] w-full">
               <h2 className="font-semibold capitalize leading-snug text-[20px] md:text-[28px] lg:text-[40px] text-white mb-4">
-                What <span className="text-[#EDC14A]">Settlement</span>
+                What <span className="text-[#FDBA22]">Settlement</span>
                 <span className="md:hidden lg:inline"> May Cover</span>
                 <span className="hidden md:inline lg:hidden">
                   <br />May Cover
@@ -60,7 +60,7 @@ export default function RoundUpSix() {
           {/* Text */}
           <div className="w-full text-white pt-4">
             <h2 className="text-[24px] min-[350px]:text-[28px] min-[400px]:text-[32px] sm:text-[28px] font-semibold capitalize mb-3 leading-tight text-left">
-              What <span className="text-[#EDC14A]">Settlement</span> May Cover
+              What <span className="text-[#FDBA22]">Settlement</span> May Cover
             </h2>
         <ul className="list-disc pl-5 text-[14px] md:text-[16px] lg:text-[22px] font-medium space-y-2 leading-relaxed text-white pb-6">
   <li>Cancer Treatment And Medical Expenses</li>

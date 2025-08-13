@@ -43,7 +43,7 @@ const HomeFour = () => {
           {features.map((item, idx) => (
             <div
               key={idx}
-              className="rounded-[10px] border border-[#EDC14A] p-5 sm:p-6 bg-white/5 text-center transition hover:shadow-md"
+              className="rounded-[10px] border border-[#FDBA22] p-5 sm:p-6 bg-white/5 text-center transition hover:shadow-md"
             >
               <div className="flex justify-center mb-3">
                 <img

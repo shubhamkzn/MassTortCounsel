@@ -6,7 +6,7 @@ const eligibilityCards = [
     number: "01",
     text: (
       <>
-        You <span className="text-[#EDC14A]">lived near a contaminated</span>{" "}
+        You <span className="text-[#FDBA22]">lived near a contaminated</span>{" "}
         military base, plant, or industrial site
       </>
     ),
@@ -16,7 +16,7 @@ const eligibilityCards = [
     number: "02",
     text: (
       <>
-        You <span className="text-[#EDC14A]">drank or cooked with</span>{" "}
+        You <span className="text-[#FDBA22]">drank or cooked with</span>{" "}
         PFAS-contaminated water
       </>
     ),
@@ -26,7 +26,7 @@ const eligibilityCards = [
     number: "03",
     text: (
       <>
-        You <span className="text-[#EDC14A]">developed cancer</span> or another
+        You <span className="text-[#FDBA22]">developed cancer</span> or another
         PFAS-related illness
       </>
     ),
@@ -37,7 +37,7 @@ const eligibilityCards = [
     text: (
       <>
         You were exposed through{" "}
-        <span className="text-[#EDC14A]">workplace handling of PFAS</span>{" "}
+        <span className="text-[#FDBA22]">workplace handling of PFAS</span>{" "}
         (firefighters, chemical workers)
       </>
     ),
@@ -48,7 +48,7 @@ const eligibilityCards = [
     text: (
       <>
         You are within your{" "}
-        <span className="text-[#EDC14A]">state’s statute of limitations</span>
+        <span className="text-[#FDBA22]">state’s statute of limitations</span>
       </>
     ),
     bg: "bg-[#FDF9ED]",
@@ -59,7 +59,7 @@ const tabeligibilityCards = [
     number: "01",
     text: (
       <>
-        You <span className="text-[#EDC14A]">lived near a contaminated</span>{" "}
+        You <span className="text-[#FDBA22]">lived near a contaminated</span>{" "}
         military base, plant, or industrial site
       </>
     ),
@@ -69,7 +69,7 @@ const tabeligibilityCards = [
     number: "02",
     text: (
       <>
-        You <span className="text-[#EDC14A]">drank or cooked with</span>{" "}
+        You <span className="text-[#FDBA22]">drank or cooked with</span>{" "}
         PFAS-contaminated water
       </>
     ),
@@ -79,7 +79,7 @@ const tabeligibilityCards = [
     number: "03",
     text: (
       <>
-        You <span className="text-[#EDC14A]">developed cancer</span> or another
+        You <span className="text-[#FDBA22]">developed cancer</span> or another
         PFAS-related illness
       </>
     ),
@@ -90,7 +90,7 @@ const tabeligibilityCards = [
     text: (
       <>
         You were exposed through{" "}
-        <span className="text-[#EDC14A]">workplace handling of PFAS</span>{" "}
+        <span className="text-[#FDBA22]">workplace handling of PFAS</span>{" "}
         (firefighters, chemical workers)
       </>
     ),
@@ -101,7 +101,7 @@ const tabeligibilityCards = [
     text: (
       <>
         You are within your{" "}
-        <span className="text-[#EDC14A]">state’s statute of limitations</span>
+        <span className="text-[#FDBA22]">state’s statute of limitations</span>
       </>
     ),
     bg: "bg-[#FDF9ED]",
@@ -129,12 +129,12 @@ export default function PFASFive() {
           {/* Text Block (First Cell) - Sized like a card but without background */}
           <div className="flex flex-col justify-center px-6 xl:px-8 py-6 xl:py-8 h-[140px] xl:h-[160px]">
             <h2 className="text-[#4F2270] text-[28px] xl:text-[32px] font-semibold capitalize leading-tight mb-2">
- You may <span className="text-[#EDC14A]"> qualify to file  </span> a lawsuit if you{" "}            </h2>
+ You may <span className="text-[#FDBA22]"> qualify to file  </span> a lawsuit if you{" "}            </h2>
             <p className="text-[#757575] text-[13px] xl:text-[14px] font-medium leading-[20px] xl:leading-[22px]">
               Unsure?{" "}
               <a
                 href="#contact-form"
-                className="text-[#EDC14A] hover:text-[#d4a841] transition-colors duration-200 underline"
+                className="text-[#FDBA22] hover:text-[#d4a841] transition-colors duration-200 underline"
               >
                 Submit the form
               </a>{" "}
@@ -178,14 +178,14 @@ export default function PFASFive() {
       <div className="hidden md:flex lg:hidden max-w-[1200px] mx-auto flex-col items-center gap-6 px-4 py-2 md:gap-6 xl:gap-8">
         <div className="w-full text-center -mt-8">
           <h2 className="text-[#4F2270] text-[28px] lg:text-[32px] font-semibold capitalize leading-normal">
-            You may <span className="text-[#EDC14A]"> qualify to file  </span> a lawsuit if you{" "}
+            You may <span className="text-[#FDBA22]"> qualify to file  </span> a lawsuit if you{" "}
           </h2>
 
           <p className="text-[#757575] text-[14px] lg:text-[14px] font-medium text-center mt-4 leading-[22px] lg:leading-[24px]">
             Unsure?{" "}
             <a
               href="#contact-form"
-              className="text-[#EDC14A] hover:text-[#d4a841] transition-colors duration-200 underline"
+              className="text-[#FDBA22] hover:text-[#d4a841] transition-colors duration-200 underline"
             >
               Submit the form
             </a>{" "}
@@ -213,12 +213,12 @@ export default function PFASFive() {
       {/* Mobile Layout (below md) */}
       <div className="md:hidden flex flex-col items-center justify-center gap-6 px-4">
         <h2 className="text-[#4F2270] text-[24px] font-semibold capitalize leading-snug text-left w-full">
- You may <span className="text-[#EDC14A]"> qualify to file  </span> a lawsuit if you{" "}        </h2>
+ You may <span className="text-[#FDBA22]"> qualify to file  </span> a lawsuit if you{" "}        </h2>
         <p className="text-[#757575] text-[14px] font-medium text-left leading-[22px]">
           Unsure?{" "}
           <a
             href="#contact-form"
-            className="text-[#EDC14A] hover:text-[#d4a841] transition-colors duration-200 underline"
+            className="text-[#FDBA22] hover:text-[#d4a841] transition-colors duration-200 underline"
           >
             Submit the form
           </a>{" "}

@@ -6,7 +6,7 @@ const eligibilityCards = [
     number: "01",
     text: (
       <>
-        Worked in <span className="text-[#EDC14A]">farming, landscaping, or chemical application</span>
+        Worked in <span className="text-[#FDBA22]">farming, landscaping, or chemical application</span>
       </>
     ),
     bg: "bg-[#FDF9ED]",
@@ -15,7 +15,7 @@ const eligibilityCards = [
     number: "02",
     text: (
       <>
-        Were exposed to Paraquat through<span className="text-[#EDC14A]"> mixing, spraying, or contact</span>
+        Were exposed to Paraquat through<span className="text-[#FDBA22]"> mixing, spraying, or contact</span>
                
       </>
     ),
@@ -35,7 +35,7 @@ const eligibilityCards = [
     number: "04",
     text: (
       <>
-        Were later diagnosed with <span className="text-[#EDC14A]"> Parkinson’s disease</span>
+        Were later diagnosed with <span className="text-[#FDBA22]"> Parkinson’s disease</span>
        
       </>
      
@@ -46,7 +46,7 @@ const eligibilityCards = [
     number: "05",
     text: (
       <>
-        Are within your <span className="text-[#EDC14A]"> state’s filing deadline</span>
+        Are within your <span className="text-[#FDBA22]"> state’s filing deadline</span>
       </>
      
     ),
@@ -82,7 +82,7 @@ export default function PraquatFive() {
   Unsure?{' '}
   <a
     href="#contact-form"
-    className="text-[#EDC14A] hover:text-[#d4a841] transition-colors duration-200 underline"
+    className="text-[#FDBA22] hover:text-[#d4a841] transition-colors duration-200 underline"
   >
     Submit the form
   </a>
@@ -133,7 +133,7 @@ export default function PraquatFive() {
   Unsure?{' '}
   <a
     href="#contact-form"
-    className="text-[#EDC14A] hover:text-[#d4a841] transition-colors duration-200 underline"
+    className="text-[#FDBA22] hover:text-[#d4a841] transition-colors duration-200 underline"
   >
     Submit the form
   </a>
@@ -169,7 +169,7 @@ export default function PraquatFive() {
   Unsure?{' '}
   <a
     href="#contact-form"
-    className="text-[#EDC14A] hover:text-[#d4a841] transition-colors duration-200 underline"
+    className="text-[#FDBA22] hover:text-[#d4a841] transition-colors duration-200 underline"
   >
     Submit the form
   </a>
