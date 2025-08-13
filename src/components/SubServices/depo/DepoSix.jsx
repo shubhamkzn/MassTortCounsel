@@ -1,5 +1,8 @@
 import React from "react";
 import leftImg from "../../../assets/Rectangle 4604.png";
+import leftImgDesk from "../../../assets/SettleMent_img_dekstop.png";
+import leftImgMobile from "../../../assets/SettleMent_img_mobile.png";
+
 
 export default function Compensation() {
   return (
@@ -17,7 +20,7 @@ export default function Compensation() {
           {/* Left: Image */}
           <div className="w-1/2 overflow-hidden rounded-tl-2xl rounded-tr-2xl md:rounded-bl-2xl md:rounded-tr-none">
             <img
-              src={leftImg}
+              src={leftImgDesk}
               alt="Compensation"
               className="w-full h-full object-cover rounded-tl-2xl md:rounded-none md:rounded-bl-2xl"
               style={{ height: "100%" }}
@@ -47,9 +50,9 @@ export default function Compensation() {
           {/* Image */}
           <div className="w-full overflow-hidden rounded-t-2xl mb-0">
             <img
-              src={leftImg}
+              src={leftImgMobile}
               alt="Compensation"
-              className="w-full h-[300px] sm:h-[320px] object-cover rounded-t-2xl"
+              className="w-full h-[300px] sm:h-[320px] object-contain rounded-t-2xl"
             />
           </div>
 

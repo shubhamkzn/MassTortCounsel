@@ -26,29 +26,29 @@ import pfasImgMob from "../../assets/SubserviceMobile/pfasMob.png";
 import meshImgMob from "../../assets/SubserviceMobile/meshmob.png";
  
 const lawsuits = [
-  { title: 'Depo-Provera Lawsuit', description: 'Linked to brain tumors and bone loss in long-term users', image: depoImg, link: '/DepoMain' },
-  { title: 'Paraquat Lawsuit', description: 'Parkinsons disease caused by toxic herbicide exposure', image: paraquatImg, link: '/ParaquatMain' },
-  { title: 'Roundup Lawsuit', description: 'Cancer linked to glyphosate-based weed killer', image: roundupImg, link: '/roundupMain' },
+  { title: 'Depo-Provera Lawsuit', description: 'Linked to brain tumors and bone loss in long-term users', image: depoImg, link: '/Service/Depo-Provera-Lawsuit' },
+  { title: 'Paraquat Lawsuit', description: 'Parkinsons disease caused by toxic herbicide exposure', image: paraquatImg, link: '/Service/Paraquat-Lawsuit' },
+  { title: 'Roundup Lawsuit', description: 'Cancer linked to glyphosate-based weed killer', image: roundupImg, link: '/Service/Roundup-Lawsuit' },
   { title: 'Toxic Baby Food Lawsuit', description: 'Heavy metal exposure tied to developmental delays', image: babyFoodImg, link: '/Babyfood' },
-  { title: 'Oxbryta Lawsuit', description: 'Linked to brain tumors and bone loss in long-term users', image: oxbrytaImg, link: '/OxbrytaMain' },
-  { title: 'Talcum Powder Lawsuit', description: 'Parkinsons disease caused by toxic herbicide exposure', image: talcumImg, link: '/TalcumMain' },
-  { title: 'Bard PowerPort Lawsuit', description: 'Cancer linked to glyphosate-based weed killer', image: bardImg, link: '/BardPowerPortMain' },
-  { title: 'AFFF Firefighting Foam Lawsuit', description: 'Linked to brain tumors and bone loss in long-term users', image: afffImg, link: '/AFFFMain' },
-  { title: 'PFAS Contamination Lawsuit', description: 'Parkinsons disease caused by toxic herbicide exposure', image: pfasImg, link: '/PFASMain' },
-  { title: 'Transvaginal Mesh Lawsuit', description: 'Cancer linked to glyphosate-based weed killer', image: meshImg, link: '/TransvaginalMain' },
+  { title: 'Oxbryta Lawsuit', description: 'Linked to brain tumors and bone loss in long-term users', image: oxbrytaImg, link: '/Service/Oxbryta-Lawsuit' },
+  { title: 'Talcum Powder Lawsuit', description: 'Parkinsons disease caused by toxic herbicide exposure', image: talcumImg, link: '/Service/Talcum-Powder-Lawsuit' },
+  { title: 'Bard PowerPort Lawsuit', description: 'Cancer linked to glyphosate-based weed killer', image: bardImg, link: '/Service/Bard-PowerPort-Lawsuit' },
+  { title: 'AFFF Firefighting Foam Lawsuit', description: 'Linked to brain tumors and bone loss in long-term users', image: afffImg, link: '/Service/AFFF-Firefighting-Foam-Lawsuit' },
+  { title: 'PFAS Contamination Lawsuit', description: 'Parkinsons disease caused by toxic herbicide exposure', image: pfasImg, link: '/Service/PFAS-Contamination-Lawsuit' },
+  { title: 'Transvaginal Mesh Lawsuit', description: 'Cancer linked to glyphosate-based weed killer', image: meshImg, link: '/Service/Transvaginal-Mesh-Lawsuit' },
 ];
  
 const Moblawsuits = [
-  { title: 'Depo-Provera Lawsuit', description: 'Linked to brain tumors and bone loss in long-term users', image: depoImgMob, link: '/DepoMain' },
-  { title: 'Paraquat Lawsuit', description: 'Parkinsons disease caused by toxic herbicide exposure', image: paraquatImgMob, link: '/ParaquatMain' },
-  { title: 'Roundup Lawsuit', description: 'Cancer linked to glyphosate-based weed killer', image: roundupImgMob, link: '/roundupMain' },
+  { title: 'Depo-Provera Lawsuit', description: 'Linked to brain tumors and bone loss in long-term users', image: depoImgMob, link: '/Service/Depo-Provera-Lawsuit' },
+  { title: 'Paraquat Lawsuit', description: 'Parkinsons disease caused by toxic herbicide exposure', image: paraquatImgMob, link: '/Service/Paraquat-Lawsuit' },
+  { title: 'Roundup Lawsuit', description: 'Cancer linked to glyphosate-based weed killer', image: roundupImgMob, link: '/Service/Roundup-Lawsuit' },
   { title: 'Toxic Baby Food Lawsuit', description: 'Heavy metal exposure tied to developmental delays', image: babyFoodImgMob, link: '/Babyfood' },
-  { title: 'Oxbryta Lawsuit', description: 'Linked to brain tumors and bone loss in long-term users', image: oxbrytaImgMob, link: '/OxbrytaMain' },
-  { title: 'Talcum Powder Lawsuit', description: 'Parkinsons disease caused by toxic herbicide exposure', image: talcumImgMob, link: '/TalcumMain' },
-  { title: 'Bard PowerPort Lawsuit', description: 'Cancer linked to glyphosate-based weed killer', image: bardImgMob, link: '/BardPowerPortMain' },
-  { title: 'AFFF Firefighting Foam Lawsuit', description: 'Linked to brain tumors and bone loss in long-term users', image: afffImgMob, link: '/AFFFMain' },
-  { title: 'PFAS Contamination Lawsuit', description: 'Parkinsons disease caused by toxic herbicide exposure', image: pfasImgMob, link: '/PFASMain' },
-  { title: 'Transvaginal Mesh Lawsuit', description: 'Cancer linked to glyphosate-based weed killer', image: meshImgMob, link: '/TransvaginalMain' },
+  { title: 'Oxbryta Lawsuit', description: 'Linked to brain tumors and bone loss in long-term users', image: oxbrytaImgMob, link: '/Service/Oxbryta-Lawsuit' },
+  { title: 'Talcum Powder Lawsuit', description: 'Parkinsons disease caused by toxic herbicide exposure', image: talcumImgMob, link: '/Service/Talcum-Powder-Lawsuit' },
+  { title: 'Bard PowerPort Lawsuit', description: 'Cancer linked to glyphosate-based weed killer', image: bardImgMob, link: '/Service/Bard-PowerPort-Lawsuit' },
+  { title: 'AFFF Firefighting Foam Lawsuit', description: 'Linked to brain tumors and bone loss in long-term users', image: afffImgMob, link: '/Service/AFFF-Firefighting-Foam-Lawsuit' },
+  { title: 'PFAS Contamination Lawsuit', description: 'Parkinsons disease caused by toxic herbicide exposure', image: pfasImgMob, link: '/Service/PFAS-Contamination-Lawsuit' },
+  { title: 'Transvaginal Mesh Lawsuit', description: 'Cancer linked to glyphosate-based weed killer', image: meshImgMob, link: '/Service/Transvaginal-Mesh-Lawsuit' },
 ];
  
 const ServiceThree = () => {

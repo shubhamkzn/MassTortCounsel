@@ -1,58 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <link rel="icon" type="image/png" href="favicon.png" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <meta name="description" content="Web site created using create-react-app" />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo.png" />
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <title>MASS TART COUNSEL</title>
-    
-    <!-- Font Awesome for social icons - Fixed integrity hash -->
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
-      integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    
-    <!-- TrustedForm Script - Fixed to prevent multiple instances -->
-     <!-- <script src="https://api.trustedform.com/trustedform.js"></script> -->
+<head>
+  <meta charset="utf-8" />
+  
+  <!-- Single favicon for all browsers and devices -->
+  <link rel="icon" type="image/png" sizes="32x32" href="%PUBLIC_URL%/favicon.png" />
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/favicon.png" />
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  
+  <!-- SEO -->
+  <meta name="description" content="Mass Tort Counsel - Expert legal services for mass tort cases, providing trusted representation and guidance." />
+  <meta name="keywords" content="Mass Tort Counsel, mass tort lawyer, legal services, personal injury, product liability, class action, legal representation" />
+  
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+  <title>Mass Tort Counsel</title>
 
-    <script type="text/javascript">
-      (function () {
-        // Check if TrustedForm is already loaded to prevent duplicates
-        if (window.trustedFormLoaded) {
-          return;
-        }
-        window.trustedFormLoaded = true;
-        
-        var tf = document.createElement("script");
-        tf.type = "text/javascript";
-        tf.async = true;
-        tf.src = (document.location.protocol === "https:" ? "https" : "http") +
-                 "://api.trustedform.com/trustedform.js?field=xxTrustedFormCertUrl&ping_field=xxTrustedFormPingUrl&token_field=xxTrustedFormCertToken&l=" +
-                 new Date().getTime();
-        
-        // Add error handling
-        tf.onerror = function() {
-          console.warn('TrustedForm script failed to load');
-        };
-        
-        var s = document.getElementsByTagName("script")[0];
-        s.parentNode.insertBefore(tf, s);
-      })();
-    </script>
-    
-    <noscript>
-      <img src="https://api.trustedform.com/ns.gif" alt="TrustedForm fallback" />
-    </noscript>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-  </body>
+  <!-- Font Awesome for social icons -->
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw=="
+    crossorigin="anonymous"
+    referrerpolicy="no-referrer"
+  />
+
+  <!-- TrustedForm Script (unchanged logic) -->
+  <script type="text/javascript">
+    (function () {
+      if (window.trustedFormLoaded) return;
+      window.trustedFormLoaded = true;
+
+      var tf = document.createElement("script");
+      tf.type = "text/javascript";
+      tf.async = true;
+      tf.src =
+        (document.location.protocol === "https:" ? "https" : "http") +
+        "://api.trustedform.com/trustedform.js" +
+        "?field=xxTrustedFormCertUrl&ping_field=xxTrustedFormPingUrl" +
+        "&token_field=xxTrustedFormCertToken&l=" + new Date().getTime();
+
+      tf.onerror = function () {
+        console.warn("TrustedForm script failed to load");
+      };
+
+      var s = document.getElementsByTagName("script")[0];
+      s.parentNode.insertBefore(tf, s);
+    })();
+  </script>
+
+  <noscript>
+    <img src="https://api.trustedform.com/ns.gif" alt="TrustedForm fallback" />
+  </noscript>
+</head>
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root"></div>
+</body>
 </html>

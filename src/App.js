@@ -34,23 +34,23 @@ const App = () => {
         element: <Disclaimer />,
       },
       {
-        path: "/Depomain",
+        path: "/Service/Depo-Provera-Lawsuit",
         element: <Depomain />,
       },
       {
-        path: "/Babyfood",
+        path: "/Service/Toxic-Baby-Food-Lawsuit",
         element: <BabyfoodMain />,
       },
       {
-        path: "/ParaquatMain",
+        path: "/Service/Paraquat-Lawsuit",
         element: <ParaquatMain />,
       },
       {
-        path: "/RoundupMain",
+        path: "/Service/Roundup-Lawsuit",
         element: <RoundUpMain />,
       },
       {
-        path: "/ServiceMain",
+        path: "/Services",
         element: <ServiceMain />,
       },
       {
@@ -62,19 +62,19 @@ const App = () => {
         element: <ContactUs />,
       },
       {
-        path: "/AFFFMain",
+        path: "/Service/AFFF-Firefighting-Foam-Lawsuit",
         element: <AFFFMain />,
       },
       {
-        path: "/BardPowerPortMain",
+        path: "/Service/Bard-PowerPort-Lawsuit",
         element: <BardPowerPortMain />,
       },
       {
-        path: "/TalcumMain",
+        path: "/Service/Talcum-Powder-Lawsuit",
         element: <TalcumMain />,
       },
       {
-        path: "/TransvaginalMain",
+        path: "/Service/Transvaginal-Mesh-Lawsuit",
         element: <TransvaginalMain />,
       },
       {
@@ -82,11 +82,11 @@ const App = () => {
         element: <UltraProcessedMain />,
       },
       {
-        path: "/OxbrytaMain",
+        path: "/Service/Oxbryta-Lawsuit",
         element: <OxbrytaMain />,
       },
       {
-        path: "/PFASMain",
+        path: "/Service/PFAS-Contamination-Lawsuit",
         element: <PFASMain />,
       }  
 

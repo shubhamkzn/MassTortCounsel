@@ -8,10 +8,10 @@ import babyFoodImg from "../../assets/newServiceImg/ToxicbabyDesktop.png";
 
 
 const lawsuits = [
-  { title: 'Depo-Provera Lawsuit', description: 'Linked to brain tumors and bone loss in long-term users', image: depoImg, link: '/DepoMain' },
-  { title: 'Paraquat Lawsuit', description: 'Parkinsons disease caused by toxic herbicide exposure', image: paraquatImg, link: '/ParaquatMain' },
-  { title: 'Roundup Lawsuit', description: 'Cancer linked to glyphosate-based weed killer', image: roundupImg, link: '/roundupMain' },
-  { title: 'Toxic Baby Food Lawsuit', description: 'Heavy metal exposure tied to developmental delays', image: babyFoodImg, link: '/Babyfood' },
+  { title: 'Depo-Provera Lawsuit', description: 'Linked to brain tumors and bone loss in long-term users', image: depoImg, link: '/Service/Depo-Provera-Lawsuit' },
+  { title: 'Paraquat Lawsuit', description: 'Parkinsons disease caused by toxic herbicide exposure', image: paraquatImg, link: '/Service/Paraquat-Lawsuit' },
+  { title: 'Roundup Lawsuit', description: 'Cancer linked to glyphosate-based weed killer', image: roundupImg, link: '/Service/Roundup-Lawsuit' },
+  { title: 'Toxic Baby Food Lawsuit', description: 'Heavy metal exposure tied to developmental delays', image: babyFoodImg, link: '/Service/Toxic-Baby-Food-Lawsuit' },
 
 ];
 
@@ -66,7 +66,7 @@ const HomeThree = () => {
             What Do We <span className="text-[#FDBA22]">Help</span> You With <span className="text-[#FDBA22]">?</span>
           </h2>
           <a
-            href="/ServiceMain"
+            href="/Services"
             className="text-sm md:text-base font-semibold text-[#4F2270] hover:underline whitespace-nowrap "
            style={{ fontFamily: 'Quicksand, sans-serif' }} >
             See All Lawsuits <span className="text-[#FDBA22]">{'>'}</span>
@@ -78,7 +78,7 @@ const HomeThree = () => {
             What Do We <span className="text-[#FDBA22]">Help You</span> With?
           </h2>
           <a
-            href="/ServiceMain"
+            href="/Services"
             className="text-sm md:text-base font-bold text-[#4F2270] hover:underline whitespace-nowrap"
           style={{ fontFamily: 'Quicksand, sans-serif' }} >
             See All <span className="text-[#FDBA22]">{'>'}</span>

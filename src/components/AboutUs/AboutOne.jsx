@@ -1,5 +1,5 @@
 import React from 'react'
-import bgImg from '../../assets/AboutUsHero.png'
+import bgImg from '../../assets/AboutUsHeroCompress.png'
 import MobileHeroBg from '../../assets/AboutUsHeroMobb.png'
 
 const AboutOne = () => {

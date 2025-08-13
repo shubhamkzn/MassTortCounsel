@@ -13,17 +13,17 @@ const NAV_LINKS = [
 ];
 
 const LAWSUIT_TYPES = [
-  { name: "Depo-Provera Lawsuit", href: "/Depomain" },
-  { name: "Paraquat Lawsuit", href: "/ParaquatMain" },
-  { name: "Roundup Lawsuit", href: "/RoundupMain" },
-  { name: "Toxic Baby Food Lawsuit", href: "/Babyfood" },
-  { name: "Oxbryta Lawsuit", href: "/OxbrytaMain" },
-  { name: "Talcum Powder Lawsuit", href: "/TalcumMain" },
-  { name: "Bard PowerPort Lawsuit", href: "/BardPowerPortMain" },
+  { name: "Depo-Provera Lawsuit", href: "/Service/Depo-Provera-Lawsuit" },
+  { name: "Paraquat Lawsuit", href: "/Service/Paraquat-Lawsuit" },
+  { name: "Roundup Lawsuit", href: "/Service/Roundup-Lawsuit" },
+  { name: "Toxic Baby Food Lawsuit", href: "/Service/Toxic-Baby-Food-Lawsuit" },
+  { name: "Oxbryta Lawsuit", href: "/Service/Oxbryta-Lawsuit" },
+  { name: "Talcum Powder Lawsuit", href: "/Service/Talcum-Powder-Lawsuit" },
+  { name: " Bard PowerPort Lawsuit", href: "/Service/Bard-PowerPort-Lawsuit" },
   // { name: "Ultra-Processed Foods Lawsuit", href: "/UltraProcessedMain" },
-  { name: "AFFF Firefighting Foam Lawsuit", href: "/AFFFMain" },
-  { name: "PFAS Contamination Lawsuit", href: "/PFASMain" },
-  { name: "Transvaginal Mesh Lawsuit", href: "/TransvaginalMain" },
+  { name: "AFFF Firefighting Foam Lawsuit", href: "/Service/AFFF-Firefighting-Foam-Lawsuit" },
+  { name: "PFAS Contamination Lawsuit", href: "/Service/PFAS-Contamination-Lawsuit" },
+  { name: "Transvaginal Mesh Lawsuit", href: "/Service/Transvaginal-Mesh-Lawsuit" },
 ];
 
 function DesktopNavbar() {
@@ -38,7 +38,7 @@ function DesktopNavbar() {
     if (path === "/" || path === "/  ") return "Home";
     if (path === "/AboutUs") return "About Us";
     if (path === "/ContactUs") return "Contact Us";
-    if (path === "/ServiceMain") return "Services";
+    if (path === "/Services") return "Services";
     // Check if it's a service page
     const isServicePage = LAWSUIT_TYPES.some(
       (lawsuit) => lawsuit.href === path
@@ -210,7 +210,7 @@ function DesktopNavbar() {
       CALL NOW
     </div>
     <div className="text-white font-quicksand text-lg font-semibold">
-      888 201-1350
+      (888) 202 1350 
     </div>
   </div>
 </div>
@@ -243,7 +243,7 @@ function MobileNavbar() {
     if (path === "/" || path === "/  ") return "Home";
     if (path === "/AboutUs") return "About Us";
     if (path === "/ContactUs") return "Contact Us";
-    if (path === "/ServiceMain") return "Services";
+    if (path === "/Services") return "Services";
     // Check if it's a service page
     const isServicePage = LAWSUIT_TYPES.some(
       (lawsuit) => lawsuit.href === path

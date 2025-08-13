@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import React from 'react'
-import teamImg from '../../assets/abUs006.png'
-import teamImg1 from '../../assets/abUs006Mob.png'
+import teamImg from '../../assets/abUs006Compress.png'
+import teamImg1 from '../../assets/abUs006Mobcompress.png'
 import aposthopthe_icon from '../../assets/aposthopthe_icon.png';
  
 const AboutSix = () => {
@@ -54,7 +54,7 @@ const AboutSix = () => {
       If you or a loved one has been affected by a harmful product or exposure, we’re here to help you take the first step toward justice.
     </p>
 
-    <Link to="/ServiceMain">
+    <Link to="/Services">
       <button className="bg-[#FDBA22] hover:bg-yellow-500 text-[#4F2270]  font-semibold px-8 py-4 rounded-lg text-lg transition-colors duration-200 shadow-lg hover:shadow-xl">
         Explore Active Lawsuits
       </button>
@@ -86,7 +86,7 @@ const AboutSix = () => {
               <p className="text-[#ffffff] font-quicksand text-[14px] sm:text-[16px] md:text-[20px] lg:text-[26px] xl:text-[30px] 2xl:text-[32px] leading-normal max-w-[700px] capitalize mb-10">
               If you or a loved one has been affected by a harmful product or exposure, we’re here to help you take the first step toward justice.
             </p>
-            <Link to="/ServiceMain">
+            <Link to="/Services">
               <button
                 className="bg-[#FDBA22] hover:bg-yellow-500 text-[#4F2270]  font-semibold px-8 py-4 rounded-lg text-lg transition-colors duration-200 shadow-lg hover:shadow-xl"
                 style={{ fontFamily: 'Quicksand, sans-serif' }}
